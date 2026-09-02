@@ -26,22 +26,52 @@ export default function TimberRetainingWallsPage() {
 
         <div className="grid gap-10 lg:grid-cols-2">
           <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-            <h2 className="text-2xl font-semibold text-slate-950">Construction methods</h2>
-            <ul className="mt-4 space-y-3 text-slate-700">
-              <li>Excavate to the correct depth and compact the base before post installation.</li>
-              <li>Set posts in concrete or gravel piers with accurate alignment.</li>
-              <li>Backfill in layers and install drainage pipes to reduce hydrostatic pressure.</li>
-            </ul>
+            <h2 className="text-2xl font-semibold text-slate-950">Construction method</h2>
+            <p className="mt-4 text-slate-700 leading-8">
+              Construction begins with setting out and drilling post holes at regular centres along the wall line, each hole deep enough to bury the base of the post securely below ground, generally at least one third of the wall’s exposed height, more on steeper or looser ground. Posts are typically treated timber, sized according to the wall height and the loads behind it, and are concreted into their holes to lock them in place.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              Once the posts are set and the concrete has cured, a geotextile fabric is laid against the excavated bank behind the wall. This permeable membrane stops fine soil particles washing through into the drainage zone while still allowing water to pass freely, protecting the wall from long-term clogging and pressure buildup.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              Behind that goes a drainage layer, usually free-draining gravel or scoria, running the full height and length of the wall, along with a perforated drainage pipe laid at the base to carry collected water away to a safe outlet point. This drainage system is arguably the most important part of the whole structure, the majority of retaining wall failures in New Zealand come down to hydrostatic pressure building up behind a wall with inadequate drainage, not from the timber or fixings themselves giving way.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              With drainage in place, the facing boards or sleepers are fixed to the posts to form the visible wall face. Backfilling then proceeds in stages behind the drainage layer, compacted progressively to avoid excessive settlement later, with topsoil reserved for the final layer near the surface, ready for planting or lawn to go back in.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              The finished wall not only holds back the bank behind it but, done properly, will stay dry, stable, and structurally sound for decades, since it’s the unseen drainage work behind the timber that does most of the heavy lifting over the wall’s lifetime.
+            </p>
           </article>
 
-          <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
-            <Image
-              src="/images/services/timber-retaining-wall-construction-drainage-wellington.jpg"
-              alt="Timber retaining wall project in Wellington"
-              width={1200}
-              height={900}
-              className="h-full w-full object-cover"
-            />
+          <div className="flex flex-col justify-between gap-6">
+            <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+              <Image
+                src="/images/services/timber-retaining-wall-excavation-trenching-wellington.jpg"
+                alt="Excavation and trenching along the wall line for a timber pole retaining wall in Wellington"
+                width={2000}
+                height={900}
+                className="aspect-[20/9] w-full object-cover object-center"
+              />
+            </div>
+            <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+              <Image
+                src="/images/services/timber-retaining-wall-drainage-gravel-trench-wellington.jpg"
+                alt="Timber pole retaining wall under construction with a gravel drainage trench and geotextile-lined bank in Wellington"
+                width={2000}
+                height={900}
+                className="aspect-[20/9] w-full object-cover object-center"
+              />
+            </div>
+            <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+              <Image
+                src="/images/services/timber-retaining-wall-completed-pole-sleeper-wellington.jpg"
+                alt="Completed timber pole and sleeper retaining wall along a footpath in Wellington"
+                width={2000}
+                height={900}
+                className="aspect-[20/9] w-full object-cover object-center"
+              />
+            </div>
           </div>
         </div>
 

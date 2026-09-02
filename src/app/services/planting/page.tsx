@@ -28,14 +28,14 @@ export default function PlantingPage() {
           <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-slate-950">Plant selection</h2>
             <p className="mt-4 text-slate-700 leading-8">
-              We select plants for durability, low maintenance and aesthetic impact, prioritising species that thrive in Wellington’s breeze, salt and shade conditions.
+              We select plants for durability, low maintenance, and aesthetic impact, prioritising species that thrive in Wellington’s wind, salt, and shade conditions. Native plants and grasses form the backbone of most of our planting schemes, they’re naturally suited to the local climate and require far less upkeep once established. For coastal and exposed sites, we lean on hardy species that can handle salt spray and strong winds without losing their shape or health. Every planting plan is tailored to the specific site, taking into account sun exposure, soil type, and how sheltered or exposed the location is, so the result looks good now and holds up for years to come.
             </p>
           </article>
 
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
-              src="/images/services/planting.jpg"
-              alt="Planting beds prepared for garden installation"
+              src="/images/services/native-grass-planting-bark-mulch-border-wellington.jpg"
+              alt="Native ornamental grasses planted in a bark-mulch border with timber edging"
               width={1200}
               height={900}
               className="h-full w-full object-cover"
