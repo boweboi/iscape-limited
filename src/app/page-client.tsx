@@ -98,32 +98,26 @@ export default function HomePageClient() {
             </h2>
           </div>
         </div>
-        <div className="mt-8 grid gap-10 lg:grid-cols-2">
-          <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-            <p className="text-lg leading-8 text-slate-700">
-              We have twenty five years of hands-on trade experience across every
-              project in the Wellington region. As a Licensed Building
-              Practitioner, we&apos;re fully qualified to handle council consents
-              and compliance on every job. From retaining walls that reclaim
-              sloped, terraced land, to ready lawn and planting chosen for local
-              conditions, we understand what actually holds up here. Every job is
-              built with the same care and craftsmanship, whether it&apos;s a
-              fence, a deck, or a full outdoor transformation.
-            </p>
-          </div>
-          <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-            <p className="text-lg leading-8 text-slate-700">
-              That&apos;s what turns a tired yard, overgrown sections, neglected
-              fences, decks nobody wants to sit on, into an outdoor space
-              you&apos;re proud of. It&apos;s not about a quick tidy up,
-              it&apos;s quality craftsmanship, built to last and built to handle
-              Wellington&apos;s climate. A sloped section becomes usable space
-              you can actually enjoy, a neglected fence becomes a real feature
-              instead of an eyesore. The result, a property that looks as good as
-              it feels to live in, adding real value and street appeal for years
-              to come.
-            </p>
-          </div>
+        <div className="mt-8 rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
+          <p className="text-lg leading-8 text-slate-700">
+            We bring twenty five years of hands-on trade experience to every
+            project we have worked on across the Wellington region. As a
+            Licensed Building Practitioner, we make sure every structural detail
+            follows the engineer or architect&apos;s drawings exactly, keeping
+            retaining walls, deck heights, balustrades, and outdoor staircases
+            fully compliant with council requirements.
+          </p>
+          <p className="mt-6 text-lg leading-8 text-slate-700">
+            We specialise in residential work, with the right machinery to get
+            into tight, limited access sites. Retaining walls are essential for
+            erosion control and turning unusable land into usable space. Fencing
+            provides privacy and security. Decking gives you that indoor outdoor
+            flow, extending your living space. Ready lawn gives you an instant
+            lawn, safe for occasional foot traffic straight away, though
+            it&apos;s best to avoid regular walking on it until it establishes
+            over the following weeks. And planting ties it all together,
+            bringing the whole outdoor space into one cohesive, natural look.
+          </p>
         </div>
       </section>
 
