@@ -71,7 +71,7 @@ export default function HomePageClient() {
         Wellington retaining walls, landscaping, ready lawn, fencing and decks
         by iScape Limited
       </h1>
-      <section className="relative aspect-video w-full overflow-hidden rounded-[40px] sm:min-h-[360px] md:aspect-[19/9]">
+      <section className="relative aspect-video w-full overflow-hidden rounded-3xl sm:min-h-[360px] md:aspect-[19/9] md:rounded-[40px]">
         <video
           className="absolute inset-0 h-full w-full object-cover object-center md:hidden"
           src="/videos/timber-retaining-wall-walkthrough-wellington-hero.mp4"
