@@ -8,7 +8,6 @@ const navItems = [
   { label: "Home", href: "/" },
   { label: "What We Do", href: "/services" },
   { label: "Estimate Tool", href: "/estimators" },
-  { label: "Portfolio", href: "/portfolio" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];

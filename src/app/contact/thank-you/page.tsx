@@ -21,10 +21,10 @@ export default function ContactThankYou() {
               Back to home
             </Link>
             <Link
-              href="/portfolio"
+              href="/services"
               className="inline-flex rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:border-slate-600"
             >
-              View portfolio
+              Explore our services
             </Link>
           </div>
         </div>
