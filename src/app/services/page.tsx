@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import SiteShell from "@/components/site-shell";
 
@@ -8,14 +9,21 @@ export const metadata: Metadata = {
     "Explore iScape Limited's retaining wall and ready lawn services in Wellington, including Wellington Council compliance, NZS 3604 timber wall guidance, drainage design, and earthquake resilience.",
 };
 
-const services = [
+const services: {
+  href: string;
+  title: string;
+  image?: string;
+  imageClassName?: string;
+}[] = [
   {
     href: "/services/timber-retaining-walls",
     title: "Retaining Walls",
+    image: "/images/services/timber-retaining-wall-ready-lawn-wellington.jpg",
   },
   {
     href: "/services/residential-fencing",
     title: "Fencing",
+    image: "/images/services/timber-boundary-fence-construction-wellington.jpg",
   },
   {
     href: "/services/decks",
@@ -24,10 +32,13 @@ const services = [
   {
     href: "/services/ready-lawn",
     title: "Ready Lawn",
+    image: "/images/services/ready-lawn-turf-roll-installation-wellington.jpg",
   },
   {
     href: "/services/planting",
     title: "Planting",
+    image: "/images/services/garden-planting-mulched-beds-path-wellington.jpg",
+    imageClassName: "object-contain bg-slate-50 object-center",
   },
   {
     href: "/services/concrete-driveways-and-paths",
@@ -54,9 +65,21 @@ export default function Services() {
             href={service.href}
             className="group rounded-3xl border border-slate-200 bg-white p-4 transition duration-300 hover:-translate-y-1 hover:border-slate-300"
           >
-            <div className="flex h-44 w-full items-center justify-center rounded-2xl border border-slate-200 bg-slate-50 text-sm text-slate-400">
-              Photo coming soon
-            </div>
+            {service.image ? (
+              <Image
+                src={service.image}
+                alt={service.title}
+                width={1200}
+                height={900}
+                className={`h-44 w-full rounded-2xl border border-slate-200 ${
+                  service.imageClassName ?? "object-cover"
+                }`}
+              />
+            ) : (
+              <div className="flex h-44 w-full items-center justify-center rounded-2xl border border-slate-200 bg-slate-50 text-sm text-slate-400">
+                Photo coming soon
+              </div>
+            )}
             <div className="pt-6 pb-2 text-center">
               <h2 className="text-xl font-semibold text-slate-950">
                 {service.title}

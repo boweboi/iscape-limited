@@ -25,16 +25,18 @@ export default function TimberRetainingWallsPage() {
         </div>
 
         <div className="grid gap-10 lg:grid-cols-2">
-          <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-            <h2 className="text-2xl font-semibold text-slate-950">NZS 3604 standards</h2>
-            <p className="mt-4 text-slate-700 leading-8">
-              Timber walls rely on NZS 3604 principles for member sizing, footing depth, and lateral load resistance. We apply these standards alongside engineering checks for higher walls and steeper sites.
-            </p>
-          </div>
+          <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <h2 className="text-2xl font-semibold text-slate-950">Construction methods</h2>
+            <ul className="mt-4 space-y-3 text-slate-700">
+              <li>Excavate to the correct depth and compact the base before post installation.</li>
+              <li>Set posts in concrete or gravel piers with accurate alignment.</li>
+              <li>Backfill in layers and install drainage pipes to reduce hydrostatic pressure.</li>
+            </ul>
+          </article>
 
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
-              src="/images/services/timber-retaining-walls.jpg"
+              src="/images/services/timber-retaining-wall-construction-drainage-wellington.jpg"
               alt="Timber retaining wall project in Wellington"
               width={1200}
               height={900}
@@ -54,12 +56,10 @@ export default function TimberRetainingWallsPage() {
           </article>
 
           <article className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-            <h3 className="text-xl font-semibold text-slate-950">Construction methods</h3>
-            <ul className="mt-4 space-y-3 text-slate-700">
-              <li>Excavate to the correct depth and compact the base before post installation.</li>
-              <li>Set posts in concrete or gravel piers with accurate alignment.</li>
-              <li>Backfill in layers and install drainage pipes to reduce hydrostatic pressure.</li>
-            </ul>
+            <h3 className="text-xl font-semibold text-slate-950">NZS 3604 standards</h3>
+            <p className="mt-4 text-slate-700 leading-8">
+              Timber walls rely on NZS 3604 principles for member sizing, footing depth, and lateral load resistance. We apply these standards alongside engineering checks for higher walls and steeper sites.
+            </p>
           </article>
         </section>
 
@@ -92,49 +92,6 @@ export default function TimberRetainingWallsPage() {
               Our documented detail includes drainage, geotextile wrap, compacted backfill and watertable management to meet local stability and consent standards.
             </p>
           </article>
-        </section>
-
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Typical construction detail</h2>
-          <div className="mt-6 grid gap-6 lg:grid-cols-[1.4fr_1fr]">
-            <div className="rounded-3xl border border-slate-300 bg-slate-950 p-6 text-slate-100">
-              <div className="space-y-4 text-sm">
-                <div className="rounded-2xl bg-slate-800 p-4">Topsoil / planted batter</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Timber wall face and weatherboard cladding</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Compacted crushed rock backfill</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Perforated drainage pipe wrapped in geotextile</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Gravel drainage layer</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Retaining footing / concrete base</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Subgrade / compacted fill</div>
-              </div>
-            </div>
-
-            <div className="rounded-3xl border border-slate-300 bg-white p-6 text-slate-700">
-              <p className="text-lg font-semibold text-slate-950">How this detail works</p>
-              <p className="mt-4 leading-8">
-                The diagram above shows a typical timber retaining wall cross-section. The wall face holds the soil while the gravel and pipe system manage water, reducing pressure and protecting the structure.
-              </p>
-              <ul className="mt-4 space-y-3">
-                <li>Topsoil and planting soften the finished face while helping with erosion control.</li>
-                <li>A solid footing and compacted subgrade give the wall a stable base for loads and seismic movement.</li>
-                <li>Geotextile-wrapped perforated pipe keeps fines out of the drainage layer and directs water to an outlet.</li>
-                <li>Compacted rock backfill allows water to flow freely behind the wall and reduces hydrostatic pressure.</li>
-              </ul>
-              <p className="mt-4 leading-8">
-                This is a schematic representation, not a substitute for engineered detail. For walls higher than 1.5m or complex slopes, we work with structural engineers and Wellington council requirements.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Homeowner checklist</h2>
-          <ul className="mt-6 space-y-3 text-slate-700">
-            <li>Inspect timber walls yearly for signs of movement, decay or water pooling.</li>
-            <li>Keep drainage outlets clear and check gravel-filled trenches after storms.</li>
-            <li>Trim vegetation away from wall faces to reduce moisture and root pressure.</li>
-            <li>Maintain timber preservative coatings and repair damaged boards promptly.</li>
-          </ul>
         </section>
       </section>
     </SiteShell>

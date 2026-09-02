@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
@@ -26,13 +25,25 @@ export default function ReadyLawnPage() {
         </div>
 
         <div className="grid gap-10 lg:grid-cols-2">
-          <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+          <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-slate-950">Project overview</h2>
             <p className="mt-4 text-slate-700 leading-8">
               Ready lawn works require precise grading, weed-free rootzone, and coordination with retaining structures. We build lawns that connect seamlessly to paths, planting areas and outdoor entertaining spaces.
             </p>
           </article>
 
+          <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
+            <Image
+              src="/images/services/ready-lawn-turf-roll-installation-wellington.jpg"
+              alt="Ready lawn turf roll on prepared ground beside freshly laid lawn"
+              width={1200}
+              height={900}
+              className="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+
+        <section className="grid gap-10 lg:grid-cols-2">
           <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
             <h3 className="text-xl font-semibold text-slate-950">Wellington council regulations</h3>
             <p className="mt-4 text-slate-700 leading-8">
@@ -48,7 +59,7 @@ export default function ReadyLawnPage() {
               <li>Match turf species to local shade, wind and maintenance needs.</li>
             </ul>
           </article>
-        </div>
+        </section>
 
         <section className="grid gap-10 lg:grid-cols-2">
           <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
@@ -67,26 +78,6 @@ export default function ReadyLawnPage() {
             </p>
           </article>
         </section>
-
-        <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Related services</h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {[
-              { href: "/services/hardscaping", label: "Hardscaping" },
-              { href: "/services/landscaping", label: "Landscaping" },
-              { href: "/services/timber-retaining-walls", label: "Timber retaining walls" },
-              { href: "/services/garden-design", label: "Garden design" },
-            ].map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="rounded-3xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm font-semibold text-slate-950 transition hover:-translate-y-1 hover:bg-slate-100"
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-        </div>
 
         <section className="grid gap-10 lg:grid-cols-2">
           <article className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
@@ -110,15 +101,6 @@ export default function ReadyLawnPage() {
               Good performance depends on drainage, soil structure and grading—especially in Wellington’s wind, salt spray and heavy rainfall environment.
             </p>
           </article>
-        </section>
-
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Homeowner checklist</h2>
-          <ul className="mt-6 space-y-3 text-slate-700">
-            <li>Water new turf daily for the first 2–3 weeks, then adjust based on rain and soil moisture.</li>
-            <li>Mow to no lower than 50–60mm and avoid cutting more than one-third of the grass height at once.</li>
-            <li>Check edges and drainage regularly so surface water runs away from the lawn and does not pond.</li>
-          </ul>
         </section>
       </section>
     </SiteShell>

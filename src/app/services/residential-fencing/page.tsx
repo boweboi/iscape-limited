@@ -34,7 +34,7 @@ export default function ResidentialFencingPage() {
 
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
-              src="/images/services/residential-fencing.jpg"
+              src="/images/services/timber-privacy-fence-retaining-wall-wellington.jpg"
               alt="Residential fencing installation in Wellington"
               width={1200}
               height={900}
@@ -91,46 +91,6 @@ export default function ResidentialFencingPage() {
             <p className="mt-4 text-slate-700 leading-8">
               Detailed workmanship ensures the fence remains a safe, compliant and durable boundary element for your home.</p>
           </article>
-        </section>
-
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Typical construction detail</h2>
-          <div className="mt-6 grid gap-6 lg:grid-cols-[1.4fr_1fr]">
-            <div className="rounded-3xl border border-slate-300 bg-slate-950 p-6 text-slate-100">
-              <div className="space-y-4 text-sm">
-                <div className="rounded-2xl bg-slate-800 p-4">Post set in concrete footing</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Durable treated timber or steel post</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Horizontal rails or panels</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Gravel footing drainage and backfill</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Weed cloth or geotextile layer</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Topsoil and finished surface</div>
-              </div>
-            </div>
-
-            <div className="rounded-3xl border border-slate-300 bg-white p-6 text-slate-700">
-              <p className="text-lg font-semibold text-slate-950">How this detail works</p>
-              <p className="mt-4 leading-8">
-                The cross-section shows a typical boundary fence setup. Posts sit in compacted footings with gravel surround for drainage, while rails or panels attach to the post for stability and privacy.
-              </p>
-              <ul className="mt-4 space-y-3">
-                <li>Concrete footings anchor the fence to resist wind and ground movement.</li>
-                <li>Gravel drainage around the post prevents water build-up and timber decay.</li>
-                <li>Materials are selected for coastal durability and low maintenance.</li>
-              </ul>
-              <p className="mt-4 leading-8">
-                Note that local boundary and council rules can affect fence height, location and materials. We always check those before starting work.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Homeowner checklist</h2>
-          <ul className="mt-6 space-y-3 text-slate-700">
-            <li>Inspect post foundations and tighten fixings if the fence moves after storms.</li>
-            <li>Trim vegetation away from the fence line to reduce rot and pressure.</li>
-            <li>Reseal timber or check steel coatings for coastal durability each year.</li>
-          </ul>
         </section>
       </section>
     </SiteShell>

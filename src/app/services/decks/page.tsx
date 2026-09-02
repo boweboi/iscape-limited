@@ -92,46 +92,6 @@ export default function DecksPage() {
               Our documentation includes foundation depth, bracing and stormwater management for secure, compliant deck construction.</p>
           </article>
         </section>
-
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Typical construction detail</h2>
-          <div className="mt-6 grid gap-6 lg:grid-cols-[1.4fr_1fr]">
-            <div className="rounded-3xl border border-slate-300 bg-slate-950 p-6 text-slate-100">
-              <div className="space-y-4 text-sm">
-                <div className="rounded-2xl bg-slate-800 p-4">Deck joists on bearers</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Deck boards with spacing for drainage</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Handrail and balustrade fixings</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Bracing or posts to engineered detail</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Footings or piers set on stable, drained ground</div>
-                <div className="rounded-2xl bg-slate-800 p-4">Compacted subgrade and drainage</div>
-              </div>
-            </div>
-
-            <div className="rounded-3xl border border-slate-300 bg-white p-6 text-slate-700">
-              <p className="text-lg font-semibold text-slate-950">How this detail works</p>
-              <p className="mt-4 leading-8">
-                The schematic shows key deck elements from boards and joists to footings and drainage. Proper spacing, airflow and solid support keep the deck stable and prevent moisture damage.
-              </p>
-              <ul className="mt-4 space-y-3">
-                <li>Joists and bearers transfer loads to footings and ensure the deck is rigid.</li>
-                <li>Well-spaced deck boards allow water to run off and air to circulate.</li>
-                <li>Footings and piers are set in compacted fill with good drainage to handle Wellington’s wet conditions.</li>
-              </ul>
-              <p className="mt-4 leading-8">
-                For raised decks and higher structures, we include engineered bracing, stormwater control and safe fall protection in the design.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Homeowner checklist</h2>
-          <ul className="mt-6 space-y-3 text-slate-700">
-            <li>Keep the space beneath the deck clear to maintain airflow and reduce moisture.</li>
-            <li>Check fixings, balustrades and steps regularly for tightness and wear.</li>
-            <li>Reapply sealant or stain on timber decking every few years in coastal Wellington conditions.</li>
-          </ul>
-        </section>
       </section>
     </SiteShell>
   );

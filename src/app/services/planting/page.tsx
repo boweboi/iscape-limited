@@ -90,15 +90,6 @@ export default function PlantingPage() {
               Native and coastal-tolerant species are often preferable, reducing maintenance and supporting landscape resilience.</p>
           </article>
         </section>
-
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Homeowner checklist</h2>
-          <ul className="mt-6 space-y-3 text-slate-700">
-            <li>Water plants deeply during summer and reduce irrigation in wet winter spells.</li>
-            <li>Refresh mulch annually and check soil moisture around new plantings.</li>
-            <li>Inspect coastal plants for salt damage after strong winds and prune as needed.</li>
-          </ul>
-        </section>
       </section>
     </SiteShell>
   );

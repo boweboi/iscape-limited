@@ -90,15 +90,6 @@ export default function ConcreteDrivewaysAndPathsPage() {
               Proper base compaction, geotextile separation and edge detail are essential for a long-lasting finish.</p>
           </article>
         </section>
-
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Homeowner checklist</h2>
-          <ul className="mt-6 space-y-3 text-slate-700">
-            <li>Keep stormwater outlets clear and check that surface water runs away from driveways and paths.</li>
-            <li>Repair cracks promptly and maintain joint sealants to prevent water ingress.</li>
-            <li>Pressure wash gently and avoid harsh chemicals that can damage concrete finishes.</li>
-          </ul>
-        </section>
       </section>
     </SiteShell>
   );

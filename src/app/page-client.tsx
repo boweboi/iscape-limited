@@ -67,12 +67,16 @@ function TestimonialCard({
 export default function HomePageClient() {
   return (
     <SiteShell>
-      <section className="relative h-[80vh] min-h-[420px] w-full overflow-hidden rounded-[40px]">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          className="absolute inset-0 h-full w-full object-cover object-bottom"
-          src="/images/services/IMG_8996.JPG"
-          alt="Completed retaining wall and landscaping project"
+      <section className="relative aspect-video min-h-[360px] w-full overflow-hidden rounded-[40px]">
+        <video
+          className="absolute inset-0 h-full w-full object-cover object-center"
+          src="/videos/timber-retaining-wall-project-wellington-hero.mp4"
+          poster="/images/services/wellington-home-timber-retaining-wall-lawn-hero.jpg"
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-label="Timber pole retaining wall project walkthrough in Wellington"
         />
       </section>
 
@@ -106,7 +110,7 @@ export default function HomePageClient() {
           <div className="flex h-24 w-36 items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/services/idL9SSwBMz_logos.jpeg"
+              src="/images/services/itm-logo.jpeg"
               alt="ITM"
               className="h-full w-full object-contain"
             />
@@ -114,7 +118,7 @@ export default function HomePageClient() {
           <div className="flex h-24 w-36 items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/services/lbp-roundel-black-png.png"
+              src="/images/services/licensed-building-practitioner-logo.png"
               alt="Licensed Building Practitioner"
               className="h-full w-full object-contain"
             />
@@ -122,7 +126,7 @@ export default function HomePageClient() {
           <div className="flex h-24 w-36 items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/services/ids1yTwztJ_logos.png"
+              src="/images/services/placemakers-logo.png"
               alt="PlaceMakers"
               className="h-full w-full object-contain"
             />
