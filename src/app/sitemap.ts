@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 
+// TODO: replace the fallback with the real domain once one is purchased and connected.
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.iscapelimited.co.nz";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://iscape-limited.vercel.app";
 
 const routes = [
   "",

@@ -12,7 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.iscapelimited.co.nz";
+// TODO: replace the fallback with the real domain once one is purchased and connected.
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://iscape-limited.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
