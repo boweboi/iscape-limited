@@ -70,7 +70,7 @@ export default function HomePageClient() {
       <section className="relative aspect-video w-full overflow-hidden rounded-[40px] sm:min-h-[360px] md:aspect-[20/9] md:min-h-0">
         <video
           className="absolute inset-0 h-full w-full object-cover object-center md:hidden"
-          src="/videos/timber-retaining-wall-project-wellington-hero.mp4"
+          src="/videos/timber-retaining-wall-walkthrough-wellington-hero.mp4"
           poster="/images/services/wellington-home-timber-retaining-wall-lawn-hero.jpg"
           autoPlay
           loop
