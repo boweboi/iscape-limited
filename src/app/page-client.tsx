@@ -67,9 +67,9 @@ function TestimonialCard({
 export default function HomePageClient() {
   return (
     <SiteShell>
-      <section className="relative aspect-video w-full overflow-hidden rounded-[40px] sm:min-h-[360px]">
+      <section className="relative aspect-video w-full overflow-hidden rounded-[40px] sm:min-h-[360px] md:aspect-[20/9] md:min-h-0">
         <video
-          className="absolute inset-0 h-full w-full object-cover object-center"
+          className="absolute inset-0 h-full w-full object-cover object-center md:hidden"
           src="/videos/timber-retaining-wall-project-wellington-hero.mp4"
           poster="/images/services/wellington-home-timber-retaining-wall-lawn-hero.jpg"
           autoPlay
@@ -77,6 +77,12 @@ export default function HomePageClient() {
           muted
           playsInline
           aria-label="Timber pole retaining wall project walkthrough in Wellington"
+        />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          className="absolute inset-0 hidden h-full w-full object-cover object-center md:block"
+          src="/images/services/hedge-planting-stone-border-lawn-wellington-hero.jpg"
+          alt="Hedge planting in a stone border beside a new lawn and timber path at a Wellington home"
         />
       </section>
 
