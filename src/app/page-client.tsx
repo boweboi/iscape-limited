@@ -67,7 +67,7 @@ function TestimonialCard({
 export default function HomePageClient() {
   return (
     <SiteShell>
-      <section className="relative aspect-video min-h-[360px] w-full overflow-hidden rounded-[40px]">
+      <section className="relative aspect-video w-full overflow-hidden rounded-[40px] sm:min-h-[360px]">
         <video
           className="absolute inset-0 h-full w-full object-cover object-center"
           src="/videos/timber-retaining-wall-project-wellington-hero.mp4"
