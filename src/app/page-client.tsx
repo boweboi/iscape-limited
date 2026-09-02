@@ -104,8 +104,8 @@ export default function HomePageClient() {
             project we have worked on across the Wellington region. As a
             Licensed Building Practitioner, we make sure every structural detail
             follows the engineer or architect&apos;s drawings exactly, keeping
-            retaining walls, deck heights, balustrades, and outdoor structures
-            fully compliant with council requirements.
+            retaining walls, deck builds, balustrades, and other outdoor
+            structures fully compliant with council requirements.
           </p>
           <p className="mt-6 text-lg leading-8 text-slate-700">
             We specialise in residential work, with the right machinery to get
