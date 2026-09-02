@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Residential Fencing | iScape Limited Wellington",
+  title: "Residential Fencing in Wellington",
   description:
-    "Residential fencing services in Wellington including durable timber, steel and privacy solutions with practical construction methods.",
+    "Residential fencing in Wellington: durable timber, steel and privacy screen fences set in concrete footings with drainage, corrosion-resistant fixings and clean boundary detail.",
+  alternates: { canonical: "/services/residential-fencing" },
 };
 
 export default function ResidentialFencingPage() {
@@ -35,7 +36,7 @@ export default function ResidentialFencingPage() {
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
               src="/images/services/timber-privacy-fence-retaining-wall-wellington.jpg"
-              alt="Residential fencing installation in Wellington"
+              alt="Completed timber privacy fence on a low sleeper retaining wall in Wellington"
               width={1200}
               height={900}
               className="h-full w-full object-cover"

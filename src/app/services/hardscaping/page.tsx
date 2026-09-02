@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Hardscaping | iScape Limited Wellington",
+  title: "Hardscaping in Wellington",
   description:
-    "Hardscaping services in Wellington including patios, retaining walls, decks and durable landscape structure.",
+    "Hardscaping in Wellington: patios, paths, retaining walls and decks that give a garden its structure, built on compacted bases with drainage and NZS 3604 detail where it applies.",
+  alternates: { canonical: "/services/hardscaping" },
 };
 
 export default function HardscapingPage() {
@@ -35,7 +36,7 @@ export default function HardscapingPage() {
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
               src="/images/services/hardscaping.jpg"
-              alt="Hardscaping with patio and retaining wall"
+              alt="Hardscaping project in Wellington with a paved patio and retaining wall"
               width={1200}
               height={900}
               className="h-full w-full object-cover"

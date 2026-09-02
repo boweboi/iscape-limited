@@ -3,9 +3,10 @@ import SiteShell from "@/components/site-shell";
 import SimpleAreaEstimator from "@/components/simple-area-estimator";
 
 export const metadata: Metadata = {
-  title: "Ready Lawn Estimate | iScape Limited Wellington landscaping",
+  title: "Ready Lawn Cost Estimate",
   description:
-    "Estimate the cost of your Wellington ready lawn project by square metres.",
+    "Estimate the cost of your Wellington ready lawn project by square metres before requesting a detailed quote from iScape Limited.",
+  alternates: { canonical: "/estimators/ready-lawn" },
 };
 
 export default function ReadyLawnEstimatorPage() {

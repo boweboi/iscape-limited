@@ -67,7 +67,11 @@ function TestimonialCard({
 export default function HomePageClient() {
   return (
     <SiteShell>
-      <section className="relative aspect-video w-full overflow-hidden rounded-[40px] sm:min-h-[360px] md:aspect-[20/9] md:min-h-0">
+      <h1 className="sr-only">
+        Wellington retaining walls, landscaping, ready lawn, fencing and decks
+        by iScape Limited
+      </h1>
+      <section className="relative aspect-video w-full overflow-hidden rounded-[40px] sm:min-h-[360px] md:aspect-[19/9]">
         <video
           className="absolute inset-0 h-full w-full object-cover object-center md:hidden"
           src="/videos/timber-retaining-wall-walkthrough-wellington-hero.mp4"
@@ -80,48 +84,55 @@ export default function HomePageClient() {
         />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          className="absolute inset-0 hidden h-full w-full object-cover object-center md:block"
-          src="/images/services/hedge-planting-stone-border-lawn-wellington-hero.jpg"
-          alt="Hedge planting in a stone border beside a new lawn and timber path at a Wellington home"
+          className="absolute inset-0 hidden h-full w-full object-cover object-[50%_80%] md:block"
+          src="/images/services/wellington-home-retaining-wall-ready-lawn-aerial-hero.jpg"
+          alt="Aerial view of a Wellington home with a timber pole retaining wall enclosing a new ready lawn"
         />
       </section>
 
       <section className="py-14 text-center lg:text-left">
-        <div className="mx-auto max-w-3xl rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-          <h2 className="text-center text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
-            Iscape
-          </h2>
-          <p className="mt-4 text-lg leading-8 text-slate-700">
-            We have twenty five years of hands-on trade experience
-            to every project across the Wellington region. As a Licensed Building
-            Practitioner, we&apos;re fully qualified to handle council consents
-            and compliance on every job. From retaining walls that reclaim
-            sloped, terraced land into flat, usable space, to ready lawn and
-            planting chosen for Wellington&apos;s wind, hills, and soil, we
-            understand what actually holds up here. Every job is built with
-            the same care and craftsmanship, whether it&apos;s a fence, a
-            deck, or a full outdoor transformation. The result is a space that
-            doesn&apos;t just look beautiful, it adds lasting value to your
-            property, giving you room to live, entertain, and enjoy your home
-            for years to come.
-          </p>
+        <div className="text-center">
+          <div className="inline-block rounded-3xl border border-slate-200 bg-slate-100 px-6 py-3 sm:px-8 sm:py-3.5">
+            <h2 className="text-sm font-semibold uppercase tracking-[0.28em] text-slate-700 sm:text-base">
+              &ldquo;Landscape Creation, Start to Finish&rdquo;
+            </h2>
+          </div>
+        </div>
+        <div className="mt-8 grid gap-10 lg:grid-cols-2">
+          <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
+            <p className="text-lg leading-8 text-slate-700">
+              We have twenty five years of hands-on trade experience across every
+              project in the Wellington region. As a Licensed Building
+              Practitioner, we&apos;re fully qualified to handle council consents
+              and compliance on every job. From retaining walls that reclaim
+              sloped, terraced land, to ready lawn and planting chosen for local
+              conditions, we understand what actually holds up here. Every job is
+              built with the same care and craftsmanship, whether it&apos;s a
+              fence, a deck, or a full outdoor transformation.
+            </p>
+          </div>
+          <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
+            <p className="text-lg leading-8 text-slate-700">
+              That&apos;s what turns a tired yard, overgrown sections, neglected
+              fences, decks nobody wants to sit on, into an outdoor space
+              you&apos;re proud of. It&apos;s not about a quick tidy up,
+              it&apos;s quality craftsmanship, built to last and built to handle
+              Wellington&apos;s climate. A sloped section becomes usable space
+              you can actually enjoy, a neglected fence becomes a real feature
+              instead of an eyesore. The result, a property that looks as good as
+              it feels to live in, adding real value and street appeal for years
+              to come.
+            </p>
+          </div>
         </div>
       </section>
 
       <section className="pb-14 text-center">
-        <p className="inline-block rounded-full bg-slate-100 px-4 py-1 text-sm font-semibold uppercase tracking-[0.28em] text-slate-700">
-          Licensed &amp; Trusted
+        <p className="inline-block rounded-full bg-slate-100 px-4 py-1 text-sm font-semibold uppercase tracking-[0.28em] text-slate-700 md:px-6 md:py-1.5 md:text-[1.3125rem]">
+          Licensed and Verified
         </p>
-        <div className="mt-6 flex flex-wrap items-center justify-center gap-6">
-          <div className="flex h-24 w-36 items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/images/services/itm-logo.jpeg"
-              alt="ITM"
-              className="h-full w-full object-contain"
-            />
-          </div>
-          <div className="flex h-24 w-36 items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
+        <div className="mt-6 flex flex-col items-center gap-3">
+          <div className="flex h-24 w-36 items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 shadow-sm md:h-48 md:w-72 md:p-8">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/services/licensed-building-practitioner-logo.png"
@@ -129,7 +140,26 @@ export default function HomePageClient() {
               className="h-full w-full object-contain"
             />
           </div>
-          <div className="flex h-24 w-36 items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 shadow-sm">
+          <p className="text-sm font-medium text-slate-700">
+            Licensed Building Practitioner
+          </p>
+        </div>
+      </section>
+
+      <section className="pb-14 text-center">
+        <p className="inline-block rounded-full bg-slate-100 px-4 py-1 text-sm font-semibold uppercase tracking-[0.28em] text-slate-700 md:px-6 md:py-1.5 md:text-[1.3125rem]">
+          Trusted Suppliers
+        </p>
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-6">
+          <div className="flex h-24 w-36 items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 shadow-sm md:h-48 md:w-72 md:p-8">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/services/itm-logo.jpeg"
+              alt="ITM"
+              className="h-full w-full object-contain"
+            />
+          </div>
+          <div className="flex h-24 w-36 items-center justify-center rounded-3xl border border-slate-200 bg-white p-4 shadow-sm md:h-48 md:w-72 md:p-8">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/services/placemakers-logo.png"
@@ -141,7 +171,7 @@ export default function HomePageClient() {
       </section>
 
       <section className="pb-14 text-center">
-        <p className="inline-block rounded-full bg-slate-100 px-4 py-1 text-sm font-semibold uppercase tracking-[0.28em] text-slate-700">
+        <p className="inline-block rounded-full bg-slate-100 px-4 py-1 text-sm font-semibold uppercase tracking-[0.28em] text-slate-700 md:px-6 md:py-1.5 md:text-[1.3125rem]">
           What Our Customers Say
         </p>
 
@@ -157,7 +187,7 @@ export default function HomePageClient() {
       </section>
 
       <section className="pb-14 text-center">
-        <p className="inline-block rounded-full bg-slate-100 px-4 py-1 text-sm font-semibold uppercase tracking-[0.28em] text-slate-700">
+        <p className="inline-block rounded-full bg-slate-100 px-4 py-1 text-sm font-semibold uppercase tracking-[0.28em] text-slate-700 md:px-6 md:py-1.5 md:text-[1.3125rem]">
           Our Service Area, Wellington Region
         </p>
         <div className="mt-6 overflow-hidden rounded-3xl border border-slate-200 shadow-sm">

@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Tree Trimming | iScape Limited Wellington",
+  title: "Tree Trimming & Pruning in Wellington",
   description:
-    "Professional tree trimming services in Wellington for healthy trees, safe limbs and landscaping integration.",
+    "Tree trimming and pruning in Wellington for healthy trees, safe limbs and a tidy result that ties back into the surrounding garden and hardscape.",
+  alternates: { canonical: "/services/tree-trimming" },
 };
 
 export default function TreeTrimmingPage() {
@@ -49,7 +50,7 @@ export default function TreeTrimmingPage() {
             <ul className="mt-4 space-y-3 text-slate-700">
               <li>Remove dead and damaged branches to improve tree health.</li>
               <li>Thin the canopy to reduce wind resistance and promote balanced growth.</li>
-              <li>Leave a healthy branch structure to preserve the tree's natural form.</li>
+              <li>Leave a healthy branch structure to preserve the tree&apos;s natural form.</li>
             </ul>
           </article>
 

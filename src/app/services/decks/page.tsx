@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Decks | iScape Limited Wellington",
+  title: "Deck Builders in Wellington",
   description:
-    "Custom Wellington decks built with durable materials, structural foundations, and engineered timber solutions.",
+    "Custom deck design and construction in Wellington, from elevated coastal platforms to courtyard decks, with NZS 3604 timber framing, engineered footings and safe fall protection.",
+  alternates: { canonical: "/services/decks" },
 };
 
 export default function DecksPage() {

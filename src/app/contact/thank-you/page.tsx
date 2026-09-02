@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import SiteShell from "@/components/site-shell";
+
+export const metadata: Metadata = {
+  title: "Thank You",
+  description: "Your enquiry has been received. The iScape Limited team will be in touch shortly.",
+  robots: { index: false, follow: true },
+};
 
 export default function ContactThankYou() {
   return (

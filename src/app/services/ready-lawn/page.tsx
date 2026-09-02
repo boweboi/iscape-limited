@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Ready Lawn | iScape Limited Wellington landscaping",
+  title: "Ready Lawn Installation in Wellington",
   description:
-    "Ready lawn installation in Wellington with engineered terraces, drainage, and Council-ready landscaping details.",
+    "Ready lawn installation in Wellington with precise grading, a free-draining rootzone, retaining edge detail and handover care advice for a healthy, even finish.",
+  alternates: { canonical: "/services/ready-lawn" },
 };
 
 export default function ReadyLawnPage() {
@@ -20,7 +21,7 @@ export default function ReadyLawnPage() {
             Wellington ready lawn installation for terraces and functional outdoor living.
           </h1>
           <p className="mt-5 text-lg leading-8 text-slate-700">
-            We install ready lawn with engineered retaining edges, quality soil preparation and integrated drainage to ensure a healthy, even finish in Wellington's variable climate.
+            We install ready lawn with engineered retaining edges, quality soil preparation and integrated drainage to ensure a healthy, even finish in Wellington&apos;s variable climate.
           </p>
         </div>
 
@@ -35,7 +36,7 @@ export default function ReadyLawnPage() {
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
               src="/images/services/ready-lawn-turf-roll-installation-wellington.jpg"
-              alt="Ready lawn turf roll on prepared ground beside freshly laid lawn"
+              alt="Ready lawn turf roll on prepared ground beside a freshly laid lawn in Wellington"
               width={1200}
               height={900}
               className="h-full w-full object-cover"

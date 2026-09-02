@@ -35,7 +35,7 @@ export default function ContactForm() {
       } else {
         router.push("/contact/thank-you");
       }
-    } catch (error) {
+    } catch {
       setResponseMessage("A network error occurred. Please try again.");
     } finally {
       setIsSubmitting(false);

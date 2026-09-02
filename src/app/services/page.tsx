@@ -4,9 +4,10 @@ import Link from "next/link";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Services | iScape Limited - Wellington retaining walls & ready lawn",
+  title: "Landscaping Services in Wellington",
   description:
-    "Explore iScape Limited's retaining wall and ready lawn services in Wellington, including Wellington Council compliance, NZS 3604 timber wall guidance, drainage design, and earthquake resilience.",
+    "iScape Limited's Wellington services: timber retaining walls, residential fencing, decking, ready lawn, planting and concrete works, built with LBP-qualified workmanship and council compliance.",
+  alternates: { canonical: "/services" },
 };
 
 const services: {
@@ -68,7 +69,7 @@ export default function Services() {
             {service.image ? (
               <Image
                 src={service.image}
-                alt={service.title}
+                alt={`${service.title} project by iScape Limited in Wellington`}
                 width={1200}
                 height={900}
                 className={`h-44 w-full rounded-2xl border border-slate-200 ${

@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Planting | iScape Limited Wellington",
+  title: "Planting & Garden Beds in Wellington",
   description:
-    "Planting services in Wellington with native and premium selection, soil preparation and garden integration.",
+    "Planting in Wellington built around hardy native species and grasses suited to local wind, salt and shade, with prepared beds, drainage and a plan tailored to each site.",
+  alternates: { canonical: "/services/planting" },
 };
 
 export default function PlantingPage() {
@@ -35,7 +36,7 @@ export default function PlantingPage() {
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
               src="/images/services/native-grass-planting-bark-mulch-border-wellington.jpg"
-              alt="Native ornamental grasses planted in a bark-mulch border with timber edging"
+              alt="Native ornamental grasses in a bark-mulch border with timber sleeper edging in Wellington"
               width={1200}
               height={900}
               className="h-full w-full object-cover"

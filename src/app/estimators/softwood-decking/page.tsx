@@ -3,9 +3,10 @@ import SiteShell from "@/components/site-shell";
 import SimpleAreaEstimator from "@/components/simple-area-estimator";
 
 export const metadata: Metadata = {
-  title: "Softwood Decking Estimate | iScape Limited Wellington landscaping",
+  title: "Softwood Decking Cost Estimate",
   description:
-    "Estimate the cost of your Wellington softwood decking project by square metres.",
+    "Estimate the cost of your Wellington softwood decking project by square metres before requesting a detailed quote from iScape Limited.",
+  alternates: { canonical: "/estimators/softwood-decking" },
 };
 
 export default function SoftwoodDeckingEstimatorPage() {

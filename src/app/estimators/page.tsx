@@ -3,9 +3,10 @@ import Link from "next/link";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Our Estimate Tool | iScape Limited Wellington landscaping",
+  title: "Project Cost Estimate Tool",
   description:
-    "Get a rough estimate for your Wellington ready lawn, retaining wall, fencing, hardwood or softwood decking, or concrete work project.",
+    "Get a rough cost estimate for your Wellington ready lawn, retaining wall, fencing, hardwood or softwood decking, or concrete work project before you request a full quote.",
+  alternates: { canonical: "/estimators" },
 };
 
 const estimators = [

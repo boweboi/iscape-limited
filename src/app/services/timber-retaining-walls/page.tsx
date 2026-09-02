@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Timber Retaining Walls | iScape Limited Wellington",
+  title: "Timber Retaining Walls in Wellington",
   description:
-    "Timber retaining wall design in Wellington with NZS 3604 standards, soil retention, drainage and structural best practice.",
+    "Timber pole retaining wall design and construction in Wellington with NZS 3604 standards, engineered drainage, geotextile and compacted backfill for walls that hold for decades.",
+  alternates: { canonical: "/services/timber-retaining-walls" },
 };
 
 export default function TimberRetainingWallsPage() {

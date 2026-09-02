@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Landscaping | iScape Limited Wellington",
+  title: "Landscaping in Wellington",
   description:
-    "Landscaping services for Wellington homes including earthworks, drainage, planting and outdoor living spaces.",
+    "Full landscaping for Wellington homes: earthworks and grading, drainage, retaining, planting and outdoor living spaces built for the local climate and seismic conditions.",
+  alternates: { canonical: "/services/landscaping" },
 };
 
 export default function LandscapingPage() {
@@ -35,7 +36,7 @@ export default function LandscapingPage() {
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
               src="/images/services/landscaping.jpg"
-              alt="Landscaping work with earthworks and planting"
+              alt="Landscaping project in Wellington with earthworks, grading and planting"
               width={1200}
               height={900}
               className="h-full w-full object-cover"

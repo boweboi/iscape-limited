@@ -3,9 +3,10 @@ import SiteShell from "@/components/site-shell";
 import FencingEstimator from "@/components/fencing-estimator";
 
 export const metadata: Metadata = {
-  title: "Fencing Estimate | iScape Limited Wellington landscaping",
+  title: "Fencing Cost Estimate",
   description:
-    "Estimate the cost of your Wellington fencing project by linear metres.",
+    "Estimate the cost of your Wellington fencing project by linear metres before requesting a detailed quote from iScape Limited.",
+  alternates: { canonical: "/estimators/fencing" },
 };
 
 export default function FencingEstimatorPage() {

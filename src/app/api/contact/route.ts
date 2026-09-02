@@ -48,7 +48,7 @@ export async function POST(request: Request) {
       text: mailText,
       html: `<p><strong>Name:</strong> ${body.name}</p><p><strong>Email:</strong> ${body.email}</p><p><strong>Phone:</strong> ${body.phone ?? "N/A"}</p><p><strong>Message:</strong></p><p>${body.message.replace(/\n/g, "<br />")}</p>`,
     });
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       {
         error:

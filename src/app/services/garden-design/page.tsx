@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Garden Design | iScape Limited Wellington",
+  title: "Garden Design in Wellington",
   description:
-    "Garden design services in Wellington combining plant selection, hardscape and sustainable layout for modern outdoor living.",
+    "Garden design in Wellington combining plant selection, hardscape and a sustainable layout, planned around sun, soil and shelter for modern, low-maintenance outdoor living.",
+  alternates: { canonical: "/services/garden-design" },
 };
 
 export default function GardenDesignPage() {

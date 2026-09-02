@@ -3,9 +3,10 @@ import SiteShell from "@/components/site-shell";
 import SimpleAreaEstimator from "@/components/simple-area-estimator";
 
 export const metadata: Metadata = {
-  title: "Concrete Work Estimate | iScape Limited Wellington landscaping",
+  title: "Concrete Work Cost Estimate",
   description:
-    "Estimate the cost of your Wellington concrete work project by square metres.",
+    "Estimate the cost of your Wellington concrete work project by square metres before requesting a detailed quote from iScape Limited.",
+  alternates: { canonical: "/estimators/concrete-work" },
 };
 
 export default function ConcreteWorkEstimatorPage() {

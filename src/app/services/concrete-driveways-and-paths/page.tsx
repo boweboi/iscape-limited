@@ -3,9 +3,10 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Concrete Driveways & Paths | iScape Limited Wellington",
+  title: "Concrete Driveways & Paths in Wellington",
   description:
-    "Concrete driveway and path installation in Wellington with engineered bases, drainage, and durable finishes.",
+    "Concrete driveway and path installation in Wellington with compacted crushed-rock bases, control joints, consistent falls to stormwater and broom or exposed-aggregate finishes.",
+  alternates: { canonical: "/services/concrete-driveways-and-paths" },
 };
 
 export default function ConcreteDrivewaysAndPathsPage() {
