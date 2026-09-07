@@ -98,7 +98,7 @@ export default function HomePageClient() {
             </h2>
           </div>
         </div>
-        <div className="mt-8 rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
+        <div className="mt-8 rounded-3xl border border-slate-200 bg-slate-50 p-8 text-left shadow-sm">
           <p className="text-lg leading-8 text-slate-700">
             With twenty-five years of hands-on trade experience, we provide a
             complete, end-to-end residential landscaping service across the
@@ -109,26 +109,46 @@ export default function HomePageClient() {
             balustrade perfectly aligns with engineering drawings and fully
             complies with council requirements.
           </p>
-          <p className="mt-6 text-lg leading-8 text-slate-700">
-            We specialise in transforming challenging residential sections,
-            utilising specialised machinery designed specifically for tight,
-            limited access sites. We bring your entire outdoor vision together,
-            blending structural integrity with beautiful design.
-          </p>
-          <p className="mt-6 text-lg leading-8 text-slate-700">
-            Retaining walls are essential for erosion control, turning steep,
-            unusable hillsides into functional, level living spaces. Concrete
-            works involve precision laying for durable driveways, pathways,
-            patios, and structural footings. Decking and balustrades create
-            seamless indoor outdoor flow to extend your living area and make the
-            most of your views. Fencing offers smart, secure boundary solutions
-            that provide privacy and frame your property beautifully. Ready lawn
-            gives you instant, lush green turf that transforms your yard
-            overnight, though it&apos;s best to give it a few weeks to establish
-            before heavy use. Planting is the final, creative touch that softens
-            the hard landscaping and ties the whole space together into a
-            cohesive look.
-          </p>
+          <ul className="mt-6 list-disc space-y-3 pl-6 text-lg leading-8 text-slate-700 marker:text-slate-400">
+            <li>
+              <span className="font-semibold text-slate-950">
+                Retaining Walls
+              </span>{" "}
+              — We design timber retaining systems with treated timber,
+              structural foundations, and drainage so your wall performs
+              reliably in local soil and seismic conditions.
+            </li>
+            <li>
+              <span className="font-semibold text-slate-950">Concrete Works</span>{" "}
+              — We install concrete driveways and paths with engineered bases,
+              controlled falls and durable finishes that perform well in
+              Wellington&apos;s changing weather conditions.
+            </li>
+            <li>
+              <span className="font-semibold text-slate-950">Decking</span> — We
+              deliver durable deck structures that suit your property, from
+              coastal elevated platforms to compact courtyard decks with
+              engineered timber framing.
+            </li>
+            <li>
+              <span className="font-semibold text-slate-950">Fencing</span> — We
+              install fences for boundary definition, privacy screening and
+              property safety using timber, steel or composite materials
+              designed for local weather and site conditions.
+            </li>
+            <li>
+              <span className="font-semibold text-slate-950">Ready Lawn</span> —
+              We install ready lawn with engineered retaining edges, quality
+              soil preparation and integrated drainage to ensure a healthy, even
+              finish in Wellington&apos;s variable climate.
+            </li>
+            <li>
+              <span className="font-semibold text-slate-950">Planting</span> — We
+              provide planting solutions using the right species for
+              Wellington&apos;s climate, soil conditions and landscape design
+              goals.
+            </li>
+          </ul>
           <p className="mt-6 text-lg leading-8 text-slate-700">
             Ready to transform your outdoor space? We are always happy to come
             out to your site, look at the layout, and provide a free, no
