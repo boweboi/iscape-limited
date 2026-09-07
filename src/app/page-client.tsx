@@ -100,23 +100,40 @@ export default function HomePageClient() {
         </div>
         <div className="mt-8 rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
           <p className="text-lg leading-8 text-slate-700">
-            We bring twenty five years of hands-on trade experience to every
-            project we have worked on across the Wellington region. As a
-            Licensed Building Practitioner, we make sure every structural detail
-            follows the engineer or architect&apos;s drawings exactly, keeping
-            retaining walls, deck builds, balustrades, and other outdoor
-            structures fully compliant with council requirements.
+            With twenty-five years of hands-on trade experience, we provide a
+            complete, end-to-end residential landscaping service across the
+            Wellington region. What sets us apart is our Licensed Building
+            Practitioner qualification. This means we don&apos;t just plant
+            gardens, we have the licensed expertise to handle the heavy
+            structural work too. We ensure every retaining wall, deck, and
+            balustrade perfectly aligns with engineering drawings and fully
+            complies with council requirements.
           </p>
           <p className="mt-6 text-lg leading-8 text-slate-700">
-            We specialise in residential work, with the right machinery to get
-            into tight, limited access sites. Retaining walls are essential for
-            erosion control and turning unusable land into usable space. Fencing
-            provides privacy and security. Decking gives you that indoor outdoor
-            flow, extending your living space. Ready lawn gives you an instant
-            lawn, safe for occasional foot traffic straight away, though
-            it&apos;s best to avoid regular walking on it until it establishes
-            over the following weeks. And planting ties it all together,
-            bringing the whole outdoor space into one cohesive, natural look.
+            We specialise in transforming challenging residential sections,
+            utilising specialised machinery designed specifically for tight,
+            limited access sites. We bring your entire outdoor vision together,
+            blending structural integrity with beautiful design.
+          </p>
+          <p className="mt-6 text-lg leading-8 text-slate-700">
+            Retaining walls are essential for erosion control, turning steep,
+            unusable hillsides into functional, level living spaces. Concrete
+            works involve precision laying for durable driveways, pathways,
+            patios, and structural footings. Decking and balustrades create
+            seamless indoor outdoor flow to extend your living area and make the
+            most of your views. Fencing offers smart, secure boundary solutions
+            that provide privacy and frame your property beautifully. Ready lawn
+            gives you instant, lush green turf that transforms your yard
+            overnight, though it&apos;s best to give it a few weeks to establish
+            before heavy use. Planting is the final, creative touch that softens
+            the hard landscaping and ties the whole space together into a
+            cohesive look.
+          </p>
+          <p className="mt-6 text-lg leading-8 text-slate-700">
+            Ready to transform your outdoor space? We are always happy to come
+            out to your site, look at the layout, and provide a free, no
+            obligation quote. Get in touch with us today to book a time that
+            suits you.
           </p>
         </div>
       </section>
