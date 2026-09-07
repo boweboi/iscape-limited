@@ -35,8 +35,8 @@ export default function DecksPage() {
 
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
-              src="/images/services/decks.jpg"
-              alt="Wellington deck construction with timber details"
+              src="/images/services/low-timber-deck-with-step-wellington.jpg"
+              alt="Low-set timber deck with a step, bordered by garden planting, in Wellington"
               width={1200}
               height={900}
               className="h-full w-full object-cover"

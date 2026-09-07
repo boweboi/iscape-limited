@@ -29,6 +29,7 @@ const services: {
   {
     href: "/services/decks",
     title: "Decking",
+    image: "/images/services/hardwood-deck-oiled-timber-finish-wellington.jpg",
   },
   {
     href: "/services/ready-lawn",
