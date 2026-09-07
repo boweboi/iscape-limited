@@ -5,7 +5,8 @@ const smtpHost = process.env.SMTP_HOST;
 const smtpPort = process.env.SMTP_PORT;
 const smtpUser = process.env.SMTP_USER;
 const smtpPass = process.env.SMTP_PASS;
-const recipientEmail = process.env.CONTACT_RECIPIENT_EMAIL ?? "hello@iscape.co.nz";
+const recipientEmail =
+  process.env.CONTACT_RECIPIENT_EMAIL ?? "iscapework@gmail.com";
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null);

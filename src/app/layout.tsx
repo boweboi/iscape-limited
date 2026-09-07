@@ -68,7 +68,7 @@ export default function RootLayout({
     description:
       "Wellington landscape creation, start to finish: timber retaining walls, decks, fencing, ready lawn and full outdoor transformations, built with LBP-qualified workmanship.",
     url: siteUrl,
-    email: "iscape@gmail.com",
+    email: "iscapework@gmail.com",
     telephone: "+64211095981",
     areaServed: {
       "@type": "AdministrativeArea",

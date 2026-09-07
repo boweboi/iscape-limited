@@ -33,7 +33,7 @@ SMTP_HOST=smtp.example.com
 SMTP_PORT=587
 SMTP_USER=your-smtp-user
 SMTP_PASS=your-smtp-password
-CONTACT_RECIPIENT_EMAIL=hello@iscape.co.nz
+CONTACT_RECIPIENT_EMAIL=iscapework@gmail.com
 ```
 
 If SMTP is not configured, the contact API still accepts submissions but will

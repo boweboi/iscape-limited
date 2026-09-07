@@ -85,10 +85,10 @@ export default function SiteShell({ children }: { children: ReactNode }) {
           <p className="text-sm">&copy; {new Date().getFullYear()} Iscape Limited</p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a
-              href="mailto:iscape@gmail.com"
+              href="mailto:iscapework@gmail.com"
               className="rounded-full border border-slate-200 px-4 py-1.5 text-sm transition hover:border-slate-300 hover:text-slate-950"
             >
-              Email: iscape@gmail.com
+              Email: iscapework@gmail.com
             </a>
             <a
               href="tel:0211095981"
