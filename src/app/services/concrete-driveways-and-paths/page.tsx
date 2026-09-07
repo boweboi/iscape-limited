@@ -25,23 +25,11 @@ export default function ConcreteDrivewaysAndPathsPage() {
           </p>
         </div>
 
-        <div className="grid gap-10 lg:grid-cols-2">
-          <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-            <h2 className="text-2xl font-semibold text-slate-950">Design and planning</h2>
-            <p className="mt-4 text-slate-700 leading-8">
-              Driveways and paths require accurate grading, good sub-base construction, and consideration for surface water flow. We design the layout to match access, vehicle loads and Wellington council requirements.
-            </p>
-          </article>
-
-          <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
-            <Image
-              src="/images/services/concrete-driveways-and-paths.jpg"
-              alt="Concrete driveway and path installation in Wellington"
-              width={1200}
-              height={900}
-              className="h-full w-full object-cover"
-            />
-          </div>
+        <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+          <h2 className="text-2xl font-semibold text-slate-950">Design and planning</h2>
+          <p className="mt-4 text-slate-700 leading-8">
+            Driveways and paths require accurate grading, good sub-base construction, and consideration for surface water flow. We design the layout to match access, vehicle loads and Wellington council requirements.
+          </p>
         </div>
 
         <section className="grid gap-10 lg:grid-cols-2">
@@ -69,6 +57,46 @@ export default function ConcreteDrivewaysAndPathsPage() {
           <p className="mt-4 text-slate-700 leading-8">
             Concrete driveways and paths are built to last when the base is engineered correctly. We advise on sealing, joint maintenance, and how to keep surfaces looking clean and stable.
           </p>
+        </div>
+
+        <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+          <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+            <div>
+              <h2 className="text-2xl font-semibold text-slate-950">Broom finish</h2>
+              <p className="mt-4 text-slate-700 leading-8">
+                Best suited to driveways, footpaths, and outdoor areas. It&apos;s a simple, slip resistant, and cost effective option. The textured surface is created by dragging a stiff bristled broom across the concrete before it sets, leaving a fine, linear texture that grips well underfoot even when wet, which is why it&apos;s such a popular choice across New Zealand for everyday driveways and footpaths.
+              </p>
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white">
+              <Image
+                src="/images/services/broom-finish-concrete-driveway-wellington.jpg"
+                alt="Broom-finished concrete slab showing the fine linear brushed texture and a control joint, in Wellington"
+                width={1200}
+                height={900}
+                className="aspect-[4/3] w-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+          <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+            <div>
+              <h2 className="text-2xl font-semibold text-slate-950">Exposed aggregate</h2>
+              <p className="mt-4 text-slate-700 leading-8">
+                Best suited to driveways, patios, entranceways, and pool surrounds. It&apos;s decorative, textured, and highly durable. It&apos;s created by removing the top layer of cement paste to reveal the natural stone and pebbles within the concrete mix, giving a unique texture and visual interest that suits high traffic areas and modern landscaping. Custom aggregates and oxide colours can also be used to enhance the look.
+              </p>
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white">
+              <Image
+                src="/images/services/exposed-aggregate-concrete-driveway-wellington.jpg"
+                alt="Exposed aggregate concrete surface with natural stone and pebbles revealed, on a Wellington driveway"
+                width={1200}
+                height={900}
+                className="aspect-[4/3] w-full object-cover"
+              />
+            </div>
+          </div>
         </div>
 
         <section className="grid gap-10 lg:grid-cols-2">

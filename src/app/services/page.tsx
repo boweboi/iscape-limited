@@ -45,6 +45,7 @@ const services: {
   {
     href: "/services/concrete-driveways-and-paths",
     title: "Concrete Works",
+    image: "/images/services/broom-finish-concrete-driveway-wellington.jpg",
   },
 ];
 
