@@ -29,18 +29,41 @@ export default function DecksPage() {
           <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-slate-950">Design principles</h2>
             <p className="mt-4 text-slate-700 leading-8">
-              A well-designed deck balances structural support with safe access. We consider fall protection, drainage, ventilation and how the deck integrates with planting, paths and retaining walls.
+              A well-designed deck balances structural support with safe access.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              When we design a deck, we plan the height and levels around your existing door thresholds and access points, so the deck sits flush with your doorways for smooth, level access straight off the house rather than an awkward step up or down.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              We also factor in fall protection where the deck sits one metre or more above the ground, with balustrades built to at least one metre high in line with New Zealand building code requirements, along with proper drainage and ventilation underneath to stop moisture buildup and protect the framing over time.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              Every deck is designed to work with the rest of your outdoor space, tying in with existing paths, planting, and retaining walls for a layout that feels considered rather than tacked on.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              The photos alongside show two timber options: the pine deck is a softwood build, while the other is a hardwood build. Homeowners can choose between them depending on the look and durability they want.
             </p>
           </article>
 
-          <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
-            <Image
-              src="/images/services/low-timber-deck-with-step-wellington.jpg"
-              alt="Low-set timber deck with a step, bordered by garden planting, in Wellington"
-              width={1200}
-              height={900}
-              className="h-full w-full object-cover"
-            />
+          <div className="grid gap-4 lg:grid-rows-2">
+            <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+              <Image
+                src="/images/services/low-timber-deck-with-step-wellington.jpg"
+                alt="Low-set timber deck with a step, bordered by garden planting, in Wellington"
+                width={1200}
+                height={900}
+                className="aspect-[4/3] w-full object-cover lg:aspect-auto lg:h-full"
+              />
+            </div>
+            <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+              <Image
+                src="/images/services/hardwood-deck-oiled-timber-finish-wellington.jpg"
+                alt="Close-up of a freshly oiled hardwood timber deck showing the rich grain and finish, in Wellington"
+                width={1200}
+                height={900}
+                className="aspect-[4/3] w-full object-cover lg:aspect-auto lg:h-full"
+              />
+            </div>
           </div>
         </div>
 
@@ -63,13 +86,6 @@ export default function DecksPage() {
             </ul>
           </article>
         </section>
-
-        <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-950">Coastal and seismic performance</h2>
-          <p className="mt-4 text-slate-700 leading-8">
-            Wellington decks should perform under wind, rain and seismic movement. We use robust connections, flexible fixings and thoughtful drainage to keep the structure stable and serviceable.
-          </p>
-        </div>
 
         <section className="grid gap-10 lg:grid-cols-2">
           <article className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">

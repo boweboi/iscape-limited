@@ -6,6 +6,14 @@ export function calculateGst(subtotal: number) {
   return { subtotal, gst, total: subtotal + gst };
 }
 
+// Builds a low-to-high estimate range from the two ex-GST subtotals.
+export function calculateRange(subtotalLow: number, subtotalHigh: number) {
+  return {
+    low: calculateGst(subtotalLow),
+    high: calculateGst(subtotalHigh),
+  };
+}
+
 export function formatCurrency(value: number) {
   return new Intl.NumberFormat("en-NZ", {
     style: "currency",

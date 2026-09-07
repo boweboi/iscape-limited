@@ -29,17 +29,29 @@ export default function ReadyLawnPage() {
           <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-slate-950">Project overview</h2>
             <p className="mt-4 text-slate-700 leading-8">
-              Ready lawn works require precise grading, weed-free rootzone, and coordination with retaining structures. We build lawns that connect seamlessly to paths, planting areas and outdoor entertaining spaces.
+              Ready lawn works require precise grading, a weed-free rootzone, and coordination with retaining structures.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              Our ready lawn installations start with proper ground preparation, cultivating the site to around one hundred millimetres depth and levelling it so the turf sits flush against paths and driveways.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              Once laid, we press the turf firmly into place to ensure good soil contact, then water it thoroughly to help it settle and begin rooting.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              For the first two to three weeks, the lawn needs consistent moisture to establish properly, so we talk you through a simple watering routine to follow during that period, ideally morning watering rather than evening.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              After that establishment period, it&apos;s ready for regular use and coordinates seamlessly with your existing planted areas, paths, and outdoor entertaining spaces.
             </p>
           </article>
 
-          <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
+          <div className="self-start overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
             <Image
               src="/images/services/ready-lawn-turf-roll-installation-wellington.jpg"
               alt="Ready lawn turf roll on prepared ground beside a freshly laid lawn in Wellington"
               width={1200}
               height={900}
-              className="h-full w-full object-cover"
+              className="aspect-[4/3] w-full object-cover"
             />
           </div>
         </div>

@@ -31,6 +31,15 @@ export default function PlantingPage() {
             <p className="mt-4 text-slate-700 leading-8">
               We select plants for durability, low maintenance, and aesthetic impact, prioritising species that thrive in Wellington’s wind, salt, and shade conditions. Native plants and grasses form the backbone of most of our planting schemes, they’re naturally suited to the local climate and require far less upkeep once established. For coastal and exposed sites, we lean on hardy species that can handle salt spray and strong winds without losing their shape or health. Every planting plan is tailored to the specific site, taking into account sun exposure, soil type, and how sheltered or exposed the location is, so the result looks good now and holds up for years to come.
             </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              Our planting is quoted as a complete garden bed build rather than plant supply alone. Pricing is based on a 300mm dig out, backfilling with a quality soil mix, laying weed mat, spreading a mulch layer, installing garden edging, and planting at a density of four plants per square metre. Preparing the bed to this depth and standard is what keeps ongoing maintenance low and gives every plant a strong root run from the outset.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              The soil mix and 300mm depth give roots room to establish before they reach the existing ground, the weed mat and mulch keep competition down while the plants settle in, and the edging holds everything in place so mulch and soil stay in the bed rather than washing onto paths and lawn. At four plants per square metre the bed reads as planted straight away and closes over within a season or two as everything grows in.
+            </p>
+            <p className="mt-4 text-slate-700 leading-8">
+              Autumn and early spring are the best windows for planting in Wellington, giving roots time to establish before summer dries the soil out or the winter winds set in. With the right species and a little extra watering through the establishment period, we can plant successfully across most of the year.
+            </p>
           </article>
 
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">

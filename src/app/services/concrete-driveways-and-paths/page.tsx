@@ -45,7 +45,8 @@ export default function ConcreteDrivewaysAndPathsPage() {
           <article className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
             <h3 className="text-xl font-semibold text-slate-950">Construction methods</h3>
             <ul className="mt-4 space-y-3 text-slate-700">
-              <li>Excavate to correct depth and install a compacted base with geotextile separation.</li>
+              <li>Excavate to the correct depth and lay a compacted GAP 40 or GAP 65 aggregate base, roughly 100–150mm deep.</li>
+              <li>Lay SE62 grade 500E steel mesh over the base for crack control before pouring.</li>
               <li>Set edge forms, pour concrete and finish to match the desired texture or pattern.</li>
               <li>Seal joints, apply curing, and finish with broom or exposed aggregate surfaces.</li>
             </ul>

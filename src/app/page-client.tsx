@@ -1,25 +1,88 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import SiteShell from "@/components/site-shell";
+
+function Typewriter({ text, className }: { text: string; className?: string }) {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const reduced =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    let timeout: ReturnType<typeof setTimeout>;
+    let typed = 0;
+    let phase: "typing" | "holding" | "waiting" = "typing";
+
+    const tick = () => {
+      if (reduced) {
+        setCount(text.length);
+        return;
+      }
+
+      if (phase === "typing") {
+        typed += 1;
+        setCount(typed);
+        if (typed >= text.length) {
+          phase = "holding";
+          timeout = setTimeout(tick, 1900);
+        } else {
+          timeout = setTimeout(tick, 95);
+        }
+        return;
+      }
+
+      if (phase === "holding") {
+        phase = "waiting";
+        setCount(0);
+        timeout = setTimeout(tick, 750);
+        return;
+      }
+
+      typed = 0;
+      phase = "typing";
+      timeout = setTimeout(tick, 0);
+    };
+
+    timeout = setTimeout(tick, reduced ? 0 : 550);
+    return () => clearTimeout(timeout);
+  }, [text]);
+
+  return (
+    <span className={`relative inline-block ${className ?? ""}`} aria-label={text}>
+      <span aria-hidden="true" className="invisible whitespace-nowrap">
+        {text}
+      </span>
+      <span
+        aria-hidden="true"
+        className="absolute inset-y-0 left-0 whitespace-nowrap"
+      >
+        {text.slice(0, count)}
+        <span className="ml-px animate-pulse font-normal">|</span>
+      </span>
+    </span>
+  );
+}
 
 const TESTIMONIALS = [
   {
-    name: "Sarah M.",
+    name: "R. Baxter",
     rating: 5,
     comment:
-      "Iscape transformed our sloped back yard into a flat, usable lawn with a retaining wall that looks fantastic. Couldn't be happier with the result.",
+      "So pleased I reached out to this company. Beau was both prompt and professional. Great job done on stump removal, would happily recommend.",
   },
   {
-    name: "David R.",
+    name: "O. Mills",
     rating: 5,
     comment:
-      "Professional from start to finish. They handled the council consent for our retaining wall without any hassle on our end.",
+      "Friendly, affordable, took pride in the work, was respectful to our property, and did an amazing job with stump grinding. Highly recommend to anyone needing landscaping or stump grinding. Professional service, would definitely use again for future work. Thanks.",
   },
   {
-    name: "Priya K.",
-    rating: 4,
+    name: "R. Waitai",
+    rating: 5,
     comment:
-      "Great communication throughout the project and the ready lawn looks amazing. Would definitely recommend to anyone in Wellington.",
+      "Very happy, great job, we'll get these guys back for future projects, thank you.",
   },
   {
     name: "Tom H.",
@@ -88,6 +151,23 @@ export default function HomePageClient() {
           src="/images/services/wellington-home-retaining-wall-ready-lawn-aerial-hero.jpg"
           alt="Aerial view of a Wellington home with a timber pole retaining wall enclosing a new ready lawn"
         />
+
+        {/* Desktop-only credibility overlay */}
+        <div className="pointer-events-none absolute inset-0 hidden bg-slate-950/25 md:block" />
+        <div className="pointer-events-none absolute inset-x-0 top-6 hidden flex-col items-center text-center md:flex lg:top-8">
+          <div className="rounded-xl bg-white/90 p-2.5 shadow-sm">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/services/licensed-building-practitioner-logo.png"
+              alt="Licensed Building Practitioner"
+              className="h-24 w-24 object-contain"
+            />
+          </div>
+          <Typewriter
+            text="LBP verified"
+            className="mt-3 text-lg font-semibold text-[#16a34a] [text-shadow:0_2px_10px_rgba(2,6,23,0.7)]"
+          />
+        </div>
       </section>
 
       <section className="py-14 text-center lg:text-left">

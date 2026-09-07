@@ -5,11 +5,16 @@ import SiteShell from "@/components/site-shell";
 export const metadata: Metadata = {
   title: "Project Cost Estimate Tool",
   description:
-    "Get a rough cost estimate for your Wellington ready lawn, retaining wall, fencing, hardwood or softwood decking, or concrete work project before you request a full quote.",
+    "Get a rough cost estimate for your Wellington ready lawn, retaining wall, fencing, hardwood or softwood decking, concrete work, or garden planting project before you request a full quote.",
   alternates: { canonical: "/estimators" },
 };
 
-const estimators = [
+const estimators: {
+  href: string;
+  title: string;
+  inputs: string;
+  className?: string;
+}[] = [
   {
     href: "/estimators/ready-lawn",
     title: "Ready Lawn",
@@ -40,6 +45,12 @@ const estimators = [
     title: "Softwood Decking",
     inputs: "Priced by square metres",
   },
+  {
+    href: "/estimators/planting",
+    title: "Planting",
+    inputs: "Priced by square metres",
+    className: "xl:col-start-2",
+  },
 ];
 
 export default function EstimatorsPage() {
@@ -63,7 +74,9 @@ export default function EstimatorsPage() {
           <Link
             key={estimator.href}
             href={estimator.href}
-            className="rounded-3xl border border-slate-200 bg-white p-8 text-center transition duration-300 hover:-translate-y-1 hover:border-slate-300"
+            className={`rounded-3xl border border-slate-200 bg-white p-8 text-center transition duration-300 hover:-translate-y-1 hover:border-slate-300 ${
+              estimator.className ?? ""
+            }`}
           >
             <h2 className="text-xl font-semibold text-slate-950">
               {estimator.title}

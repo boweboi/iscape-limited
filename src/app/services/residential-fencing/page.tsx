@@ -48,8 +48,9 @@ export default function ResidentialFencingPage() {
           <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
             <h3 className="text-xl font-semibold text-slate-950">Best practices</h3>
             <ul className="mt-4 space-y-3 text-slate-700">
-              <li>Use steel or treated timber posts set in concrete for long-lasting support.</li>
-              <li>Allow drainage and airflow behind the fence to avoid rot and pressure build-up.</li>
+              <li>Space timber fence posts around 2.4 metres apart, set into the ground with roughly one third of the post&apos;s length buried.</li>
+              <li>Foot each post with a minimum of 100 millimetres of concrete underneath the base of the post.</li>
+              <li>Shape or slope the top of the concrete slightly to direct rainwater away from the post and reduce moisture-related rot over time.</li>
               <li>Install accurate line and level to keep the fence straight and stable.</li>
             </ul>
           </article>

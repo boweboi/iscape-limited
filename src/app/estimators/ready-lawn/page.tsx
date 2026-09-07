@@ -27,7 +27,12 @@ export default function ReadyLawnEstimatorPage() {
           </p>
         </div>
 
-        <SimpleAreaEstimator rate={95} fieldLabel="Lawn area" />
+        <SimpleAreaEstimator
+          lowRate={75}
+          highRate={105}
+          fieldLabel="Lawn area"
+          sliderMax={400}
+        />
       </section>
     </SiteShell>
   );

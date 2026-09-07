@@ -26,7 +26,12 @@ export default function HardwoodDeckingEstimatorPage() {
           </p>
         </div>
 
-        <SimpleAreaEstimator rate={686} fieldLabel="Deck area" />
+        <SimpleAreaEstimator
+          lowRate={596}
+          highRate={686}
+          fieldLabel="Deck area"
+          sliderMax={120}
+        />
       </section>
     </SiteShell>
   );
