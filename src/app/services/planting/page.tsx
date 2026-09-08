@@ -3,9 +3,9 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Planting & Garden Beds in Wellington",
+  title: "Garden Planting & Bed Preparation in Wellington",
   description:
-    "Planting in Wellington built around hardy native species and grasses suited to local wind, salt and shade, with prepared beds, drainage and a plan tailored to each site.",
+    "Garden planting for Wellington and Kāpiti Coast homes, built around hardy native species and grasses suited to local wind, salt and shade, with prepared beds, drainage and a plan for each site.",
   alternates: { canonical: "/services/planting" },
 };
 
@@ -21,7 +21,7 @@ export default function PlantingPage() {
             Wellington planting services for beautiful, resilient gardens.
           </h1>
           <p className="mt-5 text-lg leading-8 text-slate-700">
-            We provide planting solutions using the right species for Wellington’s climate, soil conditions and landscape design goals.
+            We provide planting solutions using the right species for Wellington’s climate, soil conditions and landscape design goals, for gardens across Wellington and the Kāpiti Coast.
           </p>
         </div>
 

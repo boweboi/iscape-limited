@@ -4,9 +4,9 @@ import Link from "next/link";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Landscaping Services in Wellington",
+  title: "Landscaping & Retaining Wall Services in Wellington",
   description:
-    "iScape Limited's Wellington services: timber retaining walls, residential fencing, decking, ready lawn, planting and concrete works, built with LBP-qualified workmanship and council compliance.",
+    "Retaining walls, fencing, decks, ready lawn, planting and concrete work for homes across Wellington, Porirua, the Hutt Valley and the Kāpiti Coast, built by an LBP-qualified team.",
   alternates: { canonical: "/services" },
 };
 
@@ -57,8 +57,13 @@ export default function Services() {
           What We Do
         </p>
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
-          Our services.
+          Our landscaping and building services in Wellington.
         </h1>
+        <p className="mx-auto max-w-2xl text-lg leading-8 text-slate-700">
+          From retaining walls and decks to fencing, ready lawn, planting and
+          concrete driveways, we work with homeowners across the wider Wellington
+          region, including Porirua, the Hutt Valley and the Kāpiti Coast.
+        </p>
       </section>
 
       <section className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">

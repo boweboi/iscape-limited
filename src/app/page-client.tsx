@@ -166,7 +166,7 @@ export default function HomePageClient() {
           </div>
           <Typewriter
             text="LBP verified"
-            className="mt-3 text-lg font-semibold text-[#16a34a] [text-shadow:0_2px_10px_rgba(2,6,23,0.7)]"
+            className="mt-3 text-lg font-semibold text-[#39FF14] [text-shadow:0_2px_10px_rgba(2,6,23,0.7)]"
           />
         </div>
 
@@ -180,7 +180,7 @@ export default function HomePageClient() {
               className="h-8 w-8 object-contain"
             />
           </div>
-          <span className="text-sm font-semibold text-[#16a34a] [text-shadow:0_2px_10px_rgba(2,6,23,0.7)]">
+          <span className="text-sm font-semibold text-[#39FF14] [text-shadow:0_2px_10px_rgba(2,6,23,0.7)]">
             LBP verified
           </span>
         </div>

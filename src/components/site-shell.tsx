@@ -97,6 +97,23 @@ export default function SiteShell({ children }: { children: ReactNode }) {
               Phone: 021 1095 981
             </a>
           </div>
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm">
+            <Link
+              href="/privacy-policy"
+              className="transition hover:text-slate-950"
+            >
+              Privacy Policy
+            </Link>
+            <span aria-hidden="true" className="text-slate-300">
+              &middot;
+            </span>
+            <Link
+              href="/terms-and-conditions"
+              className="transition hover:text-slate-950"
+            >
+              Terms &amp; Conditions
+            </Link>
+          </div>
         </div>
       </footer>
     </div>

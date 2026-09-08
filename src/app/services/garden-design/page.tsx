@@ -3,9 +3,9 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Garden Design in Wellington",
+  title: "Garden Design in Wellington & Kāpiti",
   description:
-    "Garden design in Wellington combining plant selection, hardscape and a sustainable layout, planned around sun, soil and shelter for modern, low-maintenance outdoor living.",
+    "Garden design for Wellington and Kāpiti Coast homes, combining plant selection, hardscape and a sustainable layout planned around sun, soil and shelter for low-maintenance outdoor living.",
   alternates: { canonical: "/services/garden-design" },
 };
 
@@ -36,7 +36,7 @@ export default function GardenDesignPage() {
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
               src="/images/services/garden-design.jpg"
-              alt="Garden design layout and planting in Wellington"
+              alt="Planted garden beds with a defined path and lawn edge in a Wellington garden"
               width={1200}
               height={900}
               className="h-full w-full object-cover"

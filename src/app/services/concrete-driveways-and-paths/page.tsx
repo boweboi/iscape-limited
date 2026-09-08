@@ -3,9 +3,9 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Concrete Driveways & Paths in Wellington",
+  title: "Concrete Driveways & Paths | Wellington & Porirua",
   description:
-    "Concrete driveway and path installation in Wellington with compacted crushed-rock bases, control joints, consistent falls to stormwater and broom or exposed-aggregate finishes.",
+    "Concrete driveway and path installation across Wellington, Porirua and the Hutt Valley, with compacted GAP bases, steel mesh, control joints, proper falls and broom or exposed-aggregate finishes.",
   alternates: { canonical: "/services/concrete-driveways-and-paths" },
 };
 
@@ -21,7 +21,7 @@ export default function ConcreteDrivewaysAndPathsPage() {
             Wellington concrete driveways and paths built for strength, drainage and long-term use.
           </h1>
           <p className="mt-5 text-lg leading-8 text-slate-700">
-            We install concrete driveways and paths with engineered bases, controlled falls and durable finishes that perform well in Wellington’s changing weather conditions.
+            We install concrete driveways and paths with engineered bases, controlled falls and durable finishes, for homes across Wellington, Porirua and the Hutt Valley.
           </p>
         </div>
 
@@ -117,7 +117,7 @@ export default function ConcreteDrivewaysAndPathsPage() {
             <p className="mt-4 text-slate-700 leading-8">
               Driveways and paths must manage runoff safely, especially in Wellington’s sloping terrain. We design the sub-base, falls and outlet details to meet council stormwater and site stability requirements.</p>
             <p className="mt-4 text-slate-700 leading-8">
-              Proper base compaction, geotextile separation and edge detail are essential for a long-lasting finish.</p>
+              Proper base compaction, steel mesh reinforcement and edge detail are essential for a long-lasting finish.</p>
           </article>
         </section>
       </section>

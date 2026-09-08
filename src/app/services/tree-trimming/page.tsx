@@ -36,7 +36,7 @@ export default function TreeTrimmingPage() {
           <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white shadow-sm">
             <Image
               src="/images/services/tree-trimming.jpg"
-              alt="Tree trimming and pruning service in Wellington"
+              alt="Tree canopy being thinned and shaped during pruning in a Wellington garden"
               width={1200}
               height={900}
               className="h-full w-full object-cover"

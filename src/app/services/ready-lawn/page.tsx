@@ -3,9 +3,9 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Ready Lawn Installation in Wellington",
+  title: "Ready Lawn Installation in Wellington & Kāpiti",
   description:
-    "Ready lawn installation in Wellington with precise grading, a free-draining rootzone, retaining edge detail and handover care advice for a healthy, even finish.",
+    "Ready lawn and instant turf installation across the Wellington region, with precise grading, a free-draining rootzone, retaining edge detail and handover care advice for a healthy, even finish.",
   alternates: { canonical: "/services/ready-lawn" },
 };
 
@@ -21,7 +21,7 @@ export default function ReadyLawnPage() {
             Wellington ready lawn installation for terraces and functional outdoor living.
           </h1>
           <p className="mt-5 text-lg leading-8 text-slate-700">
-            We install ready lawn with engineered retaining edges, quality soil preparation and integrated drainage to ensure a healthy, even finish in Wellington&apos;s variable climate.
+            We install ready lawn with engineered retaining edges, quality soil preparation and integrated drainage to ensure a healthy, even finish in Wellington&apos;s variable climate, on new builds and renovations throughout the region.
           </p>
         </div>
 

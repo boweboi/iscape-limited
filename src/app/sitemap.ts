@@ -25,7 +25,10 @@ const routes = [
   "/estimators/hardwood-decking",
   "/estimators/softwood-decking",
   "/estimators/concrete-work",
+  "/estimators/planting",
   "/contact",
+  "/privacy-policy",
+  "/terms-and-conditions",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

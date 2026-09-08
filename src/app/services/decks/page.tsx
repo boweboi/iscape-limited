@@ -3,9 +3,9 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Deck Builders in Wellington",
+  title: "Deck Builder in Wellington & the Kāpiti Coast",
   description:
-    "Custom deck design and construction in Wellington, from elevated coastal platforms to courtyard decks, with NZS 3604 timber framing, engineered footings and safe fall protection.",
+    "Custom deck design and construction for properties across Wellington and the Kāpiti Coast, from elevated coastal platforms to courtyard decks, with NZS 3604 framing and safe fall protection.",
   alternates: { canonical: "/services/decks" },
 };
 
@@ -21,7 +21,7 @@ export default function DecksPage() {
             Wellington deck design and construction for seamless indoor-outdoor living.
           </h1>
           <p className="mt-5 text-lg leading-8 text-slate-700">
-            We deliver durable deck structures that suit your property, from coastal elevated platforms to compact courtyard decks with engineered timber framing.
+            We deliver durable deck structures that suit your property, from coastal elevated platforms to compact courtyard decks with engineered timber framing, for homes across Wellington and the Kāpiti Coast.
           </p>
         </div>
 

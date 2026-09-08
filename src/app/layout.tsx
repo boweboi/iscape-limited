@@ -70,10 +70,14 @@ export default function RootLayout({
     url: siteUrl,
     email: "iscapework@gmail.com",
     telephone: "+64211095981",
-    areaServed: {
-      "@type": "AdministrativeArea",
-      name: "Wellington Region, New Zealand",
-    },
+    areaServed: [
+      { "@type": "AdministrativeArea", name: "Wellington Region, New Zealand" },
+      { "@type": "City", name: "Wellington" },
+      { "@type": "City", name: "Porirua" },
+      { "@type": "City", name: "Lower Hutt" },
+      { "@type": "City", name: "Upper Hutt" },
+      { "@type": "AdministrativeArea", name: "Kāpiti Coast" },
+    ],
     address: {
       "@type": "PostalAddress",
       addressRegion: "Wellington",

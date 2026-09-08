@@ -4,12 +4,12 @@ import HomePageClient from "./page-client";
 export const metadata: Metadata = {
   title: { absolute: "Iscape Limited, Landscaping Wellington" },
   description:
-    "Wellington landscape creation, start to finish. iScape Limited builds timber retaining walls, ready lawn, fencing and decks with NZS 3604 timber wall design, drainage and council compliance.",
+    "LBP-qualified landscaping and retaining wall builders for Wellington and the Kāpiti Coast. Retaining walls, decks, fencing, ready lawn, planting and concrete work, start to finish.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Wellington Retaining Walls, Landscaping & Ready Lawn | iScape Limited",
+    title: "Iscape Limited, Landscaping Wellington",
     description:
-      "Landscape creation, start to finish, across the Wellington region. Timber retaining walls, ready lawn, fencing and decks built to last.",
+      "Landscape creation, start to finish, across the Wellington region and the Kāpiti Coast. Retaining walls, decks, fencing, ready lawn and concrete work built to last.",
     url: "/",
   },
 };

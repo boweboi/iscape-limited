@@ -3,9 +3,9 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Residential Fencing in Wellington",
+  title: "Fence Builder in Wellington | Timber & Privacy Fencing",
   description:
-    "Residential fencing in Wellington: durable timber, steel and privacy screen fences set in concrete footings with drainage, corrosion-resistant fixings and clean boundary detail.",
+    "Timber, steel and privacy screen fencing for homes in Wellington, Porirua and the Hutt Valley, with posts set in concrete footings, corrosion-resistant fixings and clean boundary detail.",
   alternates: { canonical: "/services/residential-fencing" },
 };
 
@@ -21,7 +21,7 @@ export default function ResidentialFencingPage() {
             Wellington residential fencing with durability, privacy and clean construction details.
           </h1>
           <p className="mt-5 text-lg leading-8 text-slate-700">
-            We install fences for boundary definition, privacy screening and property safety using timber, steel or composite materials designed for local weather and site conditions.
+            We install fences for boundary definition, privacy screening and property safety using timber, steel or composite materials, for homes in Wellington, Porirua and the Hutt Valley.
           </p>
         </div>
 

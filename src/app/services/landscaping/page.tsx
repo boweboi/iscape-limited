@@ -3,9 +3,9 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Landscaping in Wellington",
+  title: "Landscaping in Wellington & the Kāpiti Coast",
   description:
-    "Full landscaping for Wellington homes: earthworks and grading, drainage, retaining, planting and outdoor living spaces built for the local climate and seismic conditions.",
+    "Full landscaping for homes across Wellington and the Kāpiti Coast: earthworks and grading, drainage, retaining, planting and outdoor living spaces built for the local climate and seismic conditions.",
   alternates: { canonical: "/services/landscaping" },
 };
 

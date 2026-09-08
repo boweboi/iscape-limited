@@ -3,7 +3,7 @@ import SiteShell from "@/components/site-shell";
 import RetainingWallEstimator from "@/components/retaining-wall-estimator";
 
 export const metadata: Metadata = {
-  title: "Retaining Wall Cost Estimate",
+  title: "Wellington Retaining Wall Cost Estimate",
   description:
     "Estimate the cost of your Wellington retaining wall project by wall length and height before requesting a detailed quote from iScape Limited.",
   alternates: { canonical: "/estimators/retaining-walls" },

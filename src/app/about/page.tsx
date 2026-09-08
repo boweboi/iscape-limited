@@ -11,9 +11,11 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <SiteShell>
-      <h1 className="sr-only">About iScape Limited</h1>
       <section className="mx-auto max-w-3xl rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-        <div className="space-y-5 text-lg leading-8 text-slate-700">
+        <h1 className="text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
+          About iScape Limited
+        </h1>
+        <div className="mt-6 space-y-5 text-lg leading-8 text-slate-700">
           <p>
             Our background is in LBP carpentry, twenty five years of
             hands-on experience across the building trade.

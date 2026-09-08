@@ -3,9 +3,9 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Timber Retaining Walls in Wellington",
+  title: "Timber Retaining Wall Builder in Wellington & Kāpiti",
   description:
-    "Timber pole retaining wall design and construction in Wellington with NZS 3604 standards, engineered drainage, geotextile and compacted backfill for walls that hold for decades.",
+    "Timber pole retaining wall design and construction across Wellington, Porirua and the Kāpiti Coast, with engineered drainage, compacted backfill and NZS 3604 detailing for walls that last.",
   alternates: { canonical: "/services/timber-retaining-walls" },
 };
 
@@ -21,7 +21,7 @@ export default function TimberRetainingWallsPage() {
             Timber retaining walls engineered for Wellington slopes and NZS 3604 compliance.
           </h1>
           <p className="mt-5 text-lg leading-8 text-slate-700">
-            We design timber retaining systems with treated timber, structural foundations, and drainage so your wall performs reliably in local soil and seismic conditions.
+            We design timber retaining systems with treated timber, structural foundations, and drainage so your wall performs reliably in local soil and seismic conditions, on sites across Wellington and the Kāpiti Coast.
           </p>
         </div>
 

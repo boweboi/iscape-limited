@@ -3,9 +3,9 @@ import Image from "next/image";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Hardscaping in Wellington",
+  title: "Hardscaping in Wellington | Patios, Paths & Walls",
   description:
-    "Hardscaping in Wellington: patios, paths, retaining walls and decks that give a garden its structure, built on compacted bases with drainage and NZS 3604 detail where it applies.",
+    "Hardscaping across the Wellington region: patios, paths, retaining walls and decks that give a garden its structure, built on compacted bases with drainage and NZS 3604 detail where it applies.",
   alternates: { canonical: "/services/hardscaping" },
 };
 

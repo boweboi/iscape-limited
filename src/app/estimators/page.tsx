@@ -3,7 +3,7 @@ import Link from "next/link";
 import SiteShell from "@/components/site-shell";
 
 export const metadata: Metadata = {
-  title: "Project Cost Estimate Tool",
+  title: "Wellington Landscaping Cost Estimate Tool",
   description:
     "Get a rough cost estimate for your Wellington ready lawn, retaining wall, fencing, hardwood or softwood decking, concrete work, or garden planting project before you request a full quote.",
   alternates: { canonical: "/estimators" },
