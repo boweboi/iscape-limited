@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import SiteShell from "@/components/site-shell";
 
 function Typewriter({ text, className }: { text: string; className?: string }) {
@@ -59,7 +60,7 @@ function Typewriter({ text, className }: { text: string; className?: string }) {
         className="absolute inset-y-0 left-0 whitespace-nowrap"
       >
         {text.slice(0, count)}
-        <span className="ml-px animate-pulse font-normal">|</span>
+        <span className="ml-px font-normal">|</span>
       </span>
     </span>
   );
@@ -154,7 +155,7 @@ export default function HomePageClient() {
 
         {/* Desktop-only credibility overlay */}
         <div className="pointer-events-none absolute inset-0 hidden bg-slate-950/25 md:block" />
-        <div className="pointer-events-none absolute inset-x-0 top-6 hidden flex-col items-center text-center md:flex lg:top-8">
+        <div className="pointer-events-none absolute left-6 top-6 hidden flex-col items-start text-left md:flex lg:left-10 lg:top-10">
           <div className="rounded-xl bg-white/90 p-2.5 shadow-sm">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -201,8 +202,8 @@ export default function HomePageClient() {
             <li>
               <span className="font-semibold text-slate-950">Concrete Works</span>{" "}
               — We install concrete driveways and paths with engineered bases,
-              controlled falls and durable finishes that perform well in
-              Wellington&apos;s changing weather conditions.
+              controlled falls and durable finishes, reinforced with steel mesh
+              and control joints to keep the slab crack-free for the long term.
             </li>
             <li>
               <span className="font-semibold text-slate-950">Decking</span> — We
@@ -213,8 +214,9 @@ export default function HomePageClient() {
             <li>
               <span className="font-semibold text-slate-950">Fencing</span> — We
               install fences for boundary definition, privacy screening and
-              property safety using timber, steel or composite materials
-              designed for local weather and site conditions.
+              property safety using timber, steel or composite materials, with
+              posts concreted to depth and set to accurate boundary lines for a
+              straight, lasting result.
             </li>
             <li>
               <span className="font-semibold text-slate-950">Ready Lawn</span> —
@@ -229,12 +231,20 @@ export default function HomePageClient() {
               goals.
             </li>
           </ul>
-          <p className="mt-6 text-lg leading-8 text-slate-700">
+          <p className="mt-6 text-center text-lg leading-8 text-slate-700">
             Ready to transform your outdoor space? We are always happy to come
             out to your site, look at the layout, and provide a free, no
             obligation quote. Get in touch with us today to book a time that
             suits you.
           </p>
+          <div className="mt-8 flex justify-center">
+            <Link
+              href="/contact"
+              className="inline-flex rounded-full bg-slate-500 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-slate-200/40 transition hover:bg-slate-600"
+            >
+              Request your free quote
+            </Link>
+          </div>
         </div>
       </section>
 
