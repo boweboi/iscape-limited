@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import HomePageClient from "./page-client";
 
 export const metadata: Metadata = {
+  title: { absolute: "Iscape Limited, Landscaping Wellington" },
   description:
     "Wellington landscape creation, start to finish. iScape Limited builds timber retaining walls, ready lawn, fencing and decks with NZS 3604 timber wall design, drainage and council compliance.",
   alternates: { canonical: "/" },
