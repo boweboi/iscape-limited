@@ -169,6 +169,21 @@ export default function HomePageClient() {
             className="mt-3 text-lg font-semibold text-[#16a34a] [text-shadow:0_2px_10px_rgba(2,6,23,0.7)]"
           />
         </div>
+
+        {/* Mobile-only static credibility overlay */}
+        <div className="pointer-events-none absolute left-4 top-4 flex items-center gap-2 md:hidden">
+          <div className="rounded-lg bg-white/90 p-1.5 shadow-sm">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/services/licensed-building-practitioner-logo.png"
+              alt="Licensed Building Practitioner"
+              className="h-8 w-8 object-contain"
+            />
+          </div>
+          <span className="text-sm font-semibold text-[#16a34a] [text-shadow:0_2px_10px_rgba(2,6,23,0.7)]">
+            LBP verified
+          </span>
+        </div>
       </section>
 
       <section className="py-14 text-center lg:text-left">
