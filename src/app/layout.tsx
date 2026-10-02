@@ -39,6 +39,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
+  verification: {
+    google: "GZWsGOuVNjDR4PHNU1BKCT3xFTAxGwtZzRC9ESqd0yA",
+  },
   openGraph: {
     type: "website",
     locale: "en_NZ",
