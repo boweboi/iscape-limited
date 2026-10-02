@@ -1,10 +1,9 @@
 import { Document, Image, Page, StyleSheet, Text, View } from "@react-pdf/renderer";
 import { BUSINESS } from "../quotes/business";
 import {
-  calculateRange,
+  calculateGst,
   formatCurrency,
   RETAINING_WALL_HIGH_RATE_PER_SQM,
-  RETAINING_WALL_LOW_RATE_PER_SQM,
 } from "../../src/lib/estimate";
 import type { RetainingWallEstimateData } from "./types";
 
@@ -211,10 +210,7 @@ export function RetainingWallEstimateDocument({
   data: RetainingWallEstimateData;
 }) {
   const area = data.wallLength * data.wallHeight;
-  const { low, high } = calculateRange(
-    area * RETAINING_WALL_LOW_RATE_PER_SQM,
-    area * RETAINING_WALL_HIGH_RATE_PER_SQM,
-  );
+  const price = calculateGst(area * RETAINING_WALL_HIGH_RATE_PER_SQM);
 
   return (
     <Document
@@ -270,21 +266,15 @@ export function RetainingWallEstimateDocument({
         <View style={styles.priceBox}>
           <View style={styles.priceLine}>
             <Text style={styles.priceLineLabel}>Subtotal (excl. GST)</Text>
-            <Text style={styles.priceLineValue}>
-              {formatCurrency(low.subtotal)} – {formatCurrency(high.subtotal)}
-            </Text>
+            <Text style={styles.priceLineValue}>{formatCurrency(price.subtotal)}</Text>
           </View>
           <View style={styles.priceLine}>
             <Text style={styles.priceLineLabel}>GST (15%)</Text>
-            <Text style={styles.priceLineValue}>
-              {formatCurrency(low.gst)} – {formatCurrency(high.gst)}
-            </Text>
+            <Text style={styles.priceLineValue}>{formatCurrency(price.gst)}</Text>
           </View>
           <View style={styles.priceTotalRow}>
             <Text style={styles.priceTotalLabel}>Estimated Price (incl. GST)</Text>
-            <Text style={styles.priceTotalAmount}>
-              {formatCurrency(low.total)} – {formatCurrency(high.total)}
-            </Text>
+            <Text style={styles.priceTotalAmount}>{formatCurrency(price.total)}</Text>
           </View>
         </View>
 

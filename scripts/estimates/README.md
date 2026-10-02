@@ -1,10 +1,10 @@
 # Rough estimate PDFs
 
 Separate from the [client quote generator](../quotes/README.md). Use this for a quick pre-site-visit
-"Estimate" PDF — job details and a calculated price range, no payment schedule, clearly not a quote.
+"Estimate" PDF — job details and a single calculated price, no payment schedule, clearly not a quote.
 
-Currently supports retaining walls only (length, height -> calculated area and price range, using the
-same per-sqm rates as the website's retaining wall calculator, from `src/lib/estimate.ts`).
+Currently supports retaining walls only (length, height -> calculated area and a flat price, using the
+same per-sqm rate as the website's retaining wall calculator, from `src/lib/estimate.ts`).
 
 To generate one:
 
