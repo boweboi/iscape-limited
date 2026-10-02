@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { renderToFile } from "@react-pdf/renderer";
+import { resolveEstimateOutputDir } from "../pdf-output-dir";
 import { RetainingWallEstimateDocument } from "./template";
 import { RETAINING_WALL_MAX_HEIGHT_METRES } from "../../src/lib/estimate";
 import type { RetainingWallEstimateData } from "./types";
@@ -33,12 +34,12 @@ async function main() {
     process.exit(1);
   }
 
-  const outDir = path.resolve(process.cwd(), "estimates-output");
+  const outDir = resolveEstimateOutputDir();
   fs.mkdirSync(outDir, { recursive: true });
   const outPath = path.join(outDir, `${id}.pdf`);
 
   await renderToFile(RetainingWallEstimateDocument({ data }), outPath);
-  console.log(`Estimate PDF written to ${path.relative(process.cwd(), outPath)}`);
+  console.log(`Estimate PDF written to ${outPath}`);
 }
 
 main();

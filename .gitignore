@@ -39,15 +39,11 @@ yarn-error.log*
 # client quote generator and data (contains client details, pricing, and bank account info — local only)
 /scripts/quotes/
 
-# generated client quote PDFs (contain client pricing, not for the repo)
-/quotes-output/
-
 # per-job estimate data (contains client details — local only; template/generator code stays tracked)
 /scripts/estimates/data/*.ts
 !/scripts/estimates/data/example.ts
 
-# generated estimate PDFs (not for the repo)
-/estimates-output/
+# generated quote and estimate PDFs now save to ~/Desktop/Quotes and ~/Desktop/Estimates, outside the repo
 
 # typescript
 *.tsbuildinfo

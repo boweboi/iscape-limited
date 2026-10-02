@@ -16,7 +16,7 @@ To generate one:
    npm run estimate -- <new-id>
    ```
 
-3. The PDF is written to `estimates-output/<new-id>.pdf` (gitignored).
+3. The PDF is written to `~/Desktop/Estimates/<new-id>.pdf` (not in the repo).
 
 The generator refuses to build a PDF for walls over 1.5m, since those need council consent and an
 engineer's report rather than a flat per-sqm rate.
