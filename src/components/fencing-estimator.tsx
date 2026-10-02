@@ -72,14 +72,12 @@ export default function FencingEstimator() {
       )}
 
       <p className="text-xs text-slate-400">
-        This is a rough estimate only and may vary based on site conditions.
-        Contact us for an accurate quote.
-      </p>
-      <p className="text-xs text-slate-400">
-        This is an estimate for new work only — it doesn&apos;t include
-        removal of any existing structures or materials. Additional costs
-        such as travel and disposal fees are not included and will be added
-        separately.
+        This is an estimate only, for new work and does not include removal
+        of any existing structures or materials. Final pricing may vary once
+        we&apos;ve verified the dimensions and assessed ground conditions,
+        and assumes normal machine access to the site — if access is
+        restricted, additional costs may apply. A mobilisation fee and
+        disposal costs are not included and will be added separately.
       </p>
     </div>
   );
