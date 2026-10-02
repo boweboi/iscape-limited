@@ -2,13 +2,12 @@
 
 import { useState } from "react";
 import {
-  calculateRange,
+  calculateGst,
   parsePositiveNumber,
-  RETAINING_WALL_HIGH_RATE_PER_SQM as HIGH_RATE_PER_SQM,
-  RETAINING_WALL_LOW_RATE_PER_SQM as LOW_RATE_PER_SQM,
+  RETAINING_WALL_HIGH_RATE_PER_SQM as RATE_PER_SQM,
   RETAINING_WALL_MAX_HEIGHT_METRES as MAX_HEIGHT_METRES,
 } from "@/lib/estimate";
-import EstimateRangeResult from "./estimate-range-result";
+import EstimateResult from "./estimate-result";
 import MeasurementSlider from "./measurement-slider";
 
 export default function RetainingWallEstimator() {
@@ -21,10 +20,7 @@ export default function RetainingWallEstimator() {
   const overHeight = hasInputs && parsedHeight > MAX_HEIGHT_METRES;
   const result =
     hasInputs && !overHeight
-      ? calculateRange(
-          parsedLength * parsedHeight * LOW_RATE_PER_SQM,
-          parsedLength * parsedHeight * HIGH_RATE_PER_SQM,
-        )
+      ? calculateGst(parsedLength * parsedHeight * RATE_PER_SQM)
       : null;
 
   return (
@@ -53,7 +49,7 @@ export default function RetainingWallEstimator() {
           this tier. Contact us for a tailored quote.
         </div>
       ) : result ? (
-        <EstimateRangeResult {...result} />
+        <EstimateResult {...result} />
       ) : (
         <p className="text-sm text-slate-400">
           Set your wall length and height to see your estimate.

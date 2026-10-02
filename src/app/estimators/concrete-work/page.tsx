@@ -28,8 +28,7 @@ export default function ConcreteWorkEstimatorPage() {
         </div>
 
         <SimpleAreaEstimator
-          lowRate={156}
-          highRate={210}
+          rate={210}
           fieldLabel="Concrete area"
           sliderMax={250}
         />

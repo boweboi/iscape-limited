@@ -28,8 +28,7 @@ export default function ReadyLawnEstimatorPage() {
         </div>
 
         <SimpleAreaEstimator
-          lowRate={75}
-          highRate={105}
+          rate={105}
           fieldLabel="Lawn area"
           sliderMax={400}
         />

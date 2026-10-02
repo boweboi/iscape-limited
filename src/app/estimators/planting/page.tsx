@@ -28,8 +28,7 @@ export default function PlantingEstimatorPage() {
         </div>
 
         <SimpleAreaEstimator
-          lowRate={161}
-          highRate={249}
+          rate={249}
           fieldLabel="Planting area"
           sliderMax={100}
         />

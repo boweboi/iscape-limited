@@ -1,28 +1,24 @@
 "use client";
 
 import { useState } from "react";
-import { calculateRange, parsePositiveNumber } from "@/lib/estimate";
-import EstimateRangeResult from "./estimate-range-result";
+import { calculateGst, parsePositiveNumber } from "@/lib/estimate";
+import EstimateResult from "./estimate-result";
 import MeasurementSlider from "./measurement-slider";
 
 export default function SimpleAreaEstimator({
-  lowRate,
-  highRate,
+  rate,
   fieldLabel,
   sliderMax = 250,
   sliderStep = 1,
 }: {
-  lowRate: number;
-  highRate: number;
+  rate: number;
   fieldLabel: string;
   sliderMax?: number;
   sliderStep?: number;
 }) {
   const [area, setArea] = useState("");
   const parsedArea = parsePositiveNumber(area);
-  const result = parsedArea
-    ? calculateRange(parsedArea * lowRate, parsedArea * highRate)
-    : null;
+  const result = parsedArea ? calculateGst(parsedArea * rate) : null;
 
   return (
     <div className="space-y-5 rounded-3xl border border-slate-200 bg-white p-8 shadow-lg">
@@ -36,7 +32,7 @@ export default function SimpleAreaEstimator({
       />
 
       {result ? (
-        <EstimateRangeResult {...result} />
+        <EstimateResult {...result} />
       ) : (
         <p className="text-sm text-slate-400">
           Set a measurement to see your estimate.
