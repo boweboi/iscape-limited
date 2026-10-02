@@ -36,6 +36,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# client quote generator and data (contains client details, pricing, and bank account info — local only)
+/scripts/quotes/
+
+# generated client quote PDFs (contain client pricing, not for the repo)
+/quotes-output/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
