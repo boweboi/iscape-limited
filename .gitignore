@@ -42,6 +42,13 @@ yarn-error.log*
 # generated client quote PDFs (contain client pricing, not for the repo)
 /quotes-output/
 
+# per-job estimate data (contains client details — local only; template/generator code stays tracked)
+/scripts/estimates/data/*.ts
+!/scripts/estimates/data/example.ts
+
+# generated estimate PDFs (not for the repo)
+/estimates-output/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

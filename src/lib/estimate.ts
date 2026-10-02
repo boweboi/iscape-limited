@@ -28,3 +28,10 @@ export function parsePositiveNumber(value: string): number | null {
   const parsed = parseFloat(value);
   return !Number.isNaN(parsed) && parsed > 0 ? parsed : null;
 }
+
+// Retaining wall rates, ex-GST, per square metre (length x height).
+export const RETAINING_WALL_LOW_RATE_PER_SQM = 612;
+export const RETAINING_WALL_HIGH_RATE_PER_SQM = 738;
+// Walls taller than this require council consent and an engineer's report,
+// so there's no flat per-sqm rate for that tier.
+export const RETAINING_WALL_MAX_HEIGHT_METRES = 1.5;

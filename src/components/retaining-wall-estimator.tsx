@@ -1,13 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { calculateRange, parsePositiveNumber } from "@/lib/estimate";
+import {
+  calculateRange,
+  parsePositiveNumber,
+  RETAINING_WALL_HIGH_RATE_PER_SQM as HIGH_RATE_PER_SQM,
+  RETAINING_WALL_LOW_RATE_PER_SQM as LOW_RATE_PER_SQM,
+  RETAINING_WALL_MAX_HEIGHT_METRES as MAX_HEIGHT_METRES,
+} from "@/lib/estimate";
 import EstimateRangeResult from "./estimate-range-result";
 import MeasurementSlider from "./measurement-slider";
-
-const LOW_RATE_PER_SQM = 612;
-const HIGH_RATE_PER_SQM = 738;
-const MAX_HEIGHT_METRES = 1.5;
 
 export default function RetainingWallEstimator() {
   const [length, setLength] = useState("");
