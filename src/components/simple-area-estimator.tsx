@@ -47,6 +47,12 @@ export default function SimpleAreaEstimator({
         This is a rough estimate only and may vary based on site conditions.
         Contact us for an accurate quote.
       </p>
+      <p className="text-xs text-slate-400">
+        This is an estimate for new work only — it doesn&apos;t include
+        removal of any existing structures or materials. Additional costs
+        such as travel and disposal fees are not included and will be added
+        separately.
+      </p>
     </div>
   );
 }
