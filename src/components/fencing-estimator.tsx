@@ -58,11 +58,6 @@ export default function FencingEstimator() {
         </label>
       </div>
 
-      <p className="text-sm text-slate-500">
-        Rate: {formatCurrency(rate)} per linear metre + GST, at {heightTier}m
-        height.
-      </p>
-
       {result ? (
         <EstimateResult {...result} />
       ) : (
