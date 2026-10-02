@@ -4,7 +4,6 @@ import { useState } from "react";
 import {
   calculateGst,
   ESTIMATOR_INPUT_CLASSNAME,
-  formatCurrency,
   parsePositiveNumber,
 } from "@/lib/estimate";
 import EstimateResult from "./estimate-result";
@@ -51,7 +50,7 @@ export default function FencingEstimator() {
           >
             {(Object.keys(HEIGHT_RATES) as HeightTier[]).map((tier) => (
               <option key={tier} value={tier}>
-                {tier}m — {formatCurrency(HEIGHT_RATES[tier])}/m
+                {tier}m
               </option>
             ))}
           </select>
